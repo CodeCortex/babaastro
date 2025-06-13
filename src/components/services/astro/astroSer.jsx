@@ -3,7 +3,7 @@ const astroSer =()=>{
         <>
         <h1>Roshan Jaiswal</h1>
         <h2>ashu sir</h2>
-        <h3>aaaa</h3>
+        <h3>vedant kadam</h3>
         </>
     )
 }
