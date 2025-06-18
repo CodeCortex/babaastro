@@ -38,6 +38,8 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
+import Division6 from './components/blog-components/Division6.jsx';
+
 
 
 import "./utils/i18n/i18n.js"
@@ -122,6 +124,9 @@ class Root extends Component {
 											<Route path="/divison2" component={Division2}/>
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
+											<Route path="/divison6" component={Division6}/>
+
+											
 
 
 
