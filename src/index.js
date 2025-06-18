@@ -38,6 +38,7 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
+import Division24 from './components/blog-components/Division24.jsx';
 
 
 import "./utils/i18n/i18n.js"
@@ -122,6 +123,17 @@ class Root extends Component {
 											<Route path="/divison2" component={Division2}/>
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
+											<Route path="/divison24" component={Division24}/>
+
+	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
+	                    <Route  path="/blog-components/Planetsinastrology" component={Planetinastrology} />
+	                    <Route  path="/blog-components/Divison" component={Divison} />
+	                    <Route  path="/blog-components/Division2" component={Division2} />
+	                    <Route  path="/blog-components/Division3" component={Division3} />
+	                    <Route  path="/blog-components/Division5" component={Division5} />
+						<Route  path="/blog-components/Division24" component={Division24} />
+
+	                    <Route  path="*" component={Error} />
 
 
 
