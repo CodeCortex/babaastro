@@ -39,6 +39,9 @@ import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
 import Division6 from './components/blog-components/Division6.jsx';
+import Division7 from './components/blog-components/Division7.jsx';
+import Division9 from './components/blog-components/Divisin9.jsx';
+
 
 
 
@@ -125,6 +128,9 @@ class Root extends Component {
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
 											<Route path="/divison6" component={Division6}/>
+											<Route path="/divison7" component={Division7}/>
+											<Route path="/divison9" component={Division9}/>
+
 
 											
 
