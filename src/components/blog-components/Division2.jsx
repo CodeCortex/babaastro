@@ -1,8 +1,22 @@
 import React from 'react';
+import { useRef, useState, useEffect } from 'react';
 
 const Division2 = () => {
     const publicUrl = process.env.PUBLIC_URL || "";
-
+    const textRef = useRef(null);
+    const imgColRef = useRef(null);
+    const [maxHeight, setMaxHeight] = useState(0);
+    useEffect(() => {
+        const updateHeights = () => {
+            if (textRef.current && imgColRef.current) {
+                const h = textRef.current.getBoundingClientRect().height;
+                setMaxHeight(h);
+            }
+        };
+        updateHeights();
+        window.addEventListener('resize', updateHeights);
+        return () => window.removeEventListener('resize', updateHeights);
+    }, []);
     return (
         <div>
             <div
@@ -30,13 +44,40 @@ const Division2 = () => {
                 }}
                 className=" w-full pt-20 pb-20 flex flex-col justify-center items-center"
             >
-                <div style={{ backgroundColor: 'white', width: "90vw" }} className=' h-56 pt-8 rounded-2xl '>
+                <div style={{ backgroundColor: '#F0F0F0', width: "90vw" }} className=' h-56 pt-8 rounded-2xl '>
 
                 </div>
 
-                <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
+                <div style={{ backgroundColor: "#F0F0F0", width: "86vw" }} className='mt-8 p-10'>
                     <div className='w-full flex md:flex-row flex-col items-start '>
-                        <img src={`${publicUrl}/assets/img/blog/division/D2MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' />
+                        {/* image from here */}
+
+                        {/* <img src={`${publicUrl}/assets/img/blog/division/D2MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' /> */}
+                        {/* Image Column with max height constraint */}
+                        <div className="md:w-1/2 w-full flex flex-col gap-3 md:pr-4">
+                            {[1, 2, 3].map((n) => (
+                                <div
+                                    key={n}
+                                    className="flex-1 w-full  flex items-center justify-center"
+                                >
+                                    <img
+                                        src={`${publicUrl}/assets/img/blog/division/Divison2/image_${n}.webp`}
+                                        alt={`Hora Part ${n}`}
+                                        className="h-full w-auto object-contain border border-black rounded-md"
+                                    // style={{ height: ' 18re' }}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+
+
+
+
+
+
+
+
+                        {/* heading + text here */}
                         <div className='md:w-1/2 w-full  flex flex-col justify-center px-6 gap-3'>
                             <p style={{ color: "#5D0000" }} className='text-3xl font-bold'>Hora Chart (ஹோரா சக்கரம்)</p>
                             <p className='text-black font-medium'>Derived from “Aho-Ratra” (Day-Night), the Hora Chart (D2) divides each Rasi (30°) into 2 parts of 15°.</p>
@@ -93,7 +134,26 @@ const Division2 = () => {
                                 ⚠️ A weak D2 may show someone who earns well but struggles to save or manage money properly.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/D2MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' />
+
+                        {/* image here */}
+                        {/* <img src={`${publicUrl}/assets/img/blog/division/D2MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' /> */}
+                        <div className="md:w-1/2 w-full flex flex-col gap-3 md:pr-4 "    >
+                            {[4, 5].map((n) => (
+                                <div
+                                    key={n}
+                                    className="flex-1 w-full  flex items-center justify-center  "
+                                    style={{ height: '18em' }}
+
+                                >
+                                    <img
+                                        src={`${publicUrl}/assets/img/blog/division/Divison2/image_${n}.webp`}
+                                        alt={`Hora Part ${n}`}
+                                        className="h-full w-auto object-contain border border-black rounded-lg "
+                                        style={{ height: '18em' }}
+                                    />
+                                </div>
+                            ))}
+                        </div>
 
                     </div>
                 </div>
@@ -119,7 +179,7 @@ const Division2 = () => {
                 <h1 style={{ paddingBlock: "" }} className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Astrological remedies if you were not able to buy a house </h1>
 
                 <button
-                style={{backgroundColor:"#E90000"}}
+                    style={{ backgroundColor: "#E90000" }}
                     className="bg-[#E90000] border-4 border-white rounded-2xl px-20 py-3 lg:py-6 hover:text-red-500 text-white text-xl lg:text-4xl hover:text-red shadow-lg hover:bg-white  transition duration-300"
                 >
                     Check Now
