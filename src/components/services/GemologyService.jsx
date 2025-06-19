@@ -362,4 +362,4 @@ const GemologyService = () => {
     );
 }
 
-export default GemologyService
+export default GemologyService;

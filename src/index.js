@@ -38,7 +38,15 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
+<<<<<<< HEAD
+import Division6 from './components/blog-components/Division6.jsx';
+import Division7 from './components/blog-components/Division7.jsx';
+import Division9 from './components/blog-components/Divisin9.jsx';
+
+
+=======
 import Division24 from './components/blog-components/Division24.jsx';
+>>>>>>> f38fe981cdc1b887c06a08ced72e1b9b0bb40888
 
 
 import "./utils/i18n/i18n.js"
@@ -123,6 +131,14 @@ class Root extends Component {
 											<Route path="/divison2" component={Division2}/>
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
+<<<<<<< HEAD
+											<Route path="/divison6" component={Division6}/>
+											<Route path="/divison7" component={Division7}/>
+											<Route path="/divison9" component={Division9}/>
+
+
+											
+=======
 											<Route path="/divison24" component={Division24}/>
 
 	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
@@ -134,6 +150,7 @@ class Root extends Component {
 						<Route  path="/blog-components/Division24" component={Division24} />
 
 	                    <Route  path="*" component={Error} />
+>>>>>>> f38fe981cdc1b887c06a08ced72e1b9b0bb40888
 
 
 
