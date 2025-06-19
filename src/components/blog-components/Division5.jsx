@@ -7,7 +7,7 @@ const Division5 = () => {
         <div>
             <div
                 style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/D5.svg)`,
+                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d5/Desktop-43.svg)`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'top center',
@@ -36,13 +36,13 @@ const Division5 = () => {
 
                 <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
                     <div className='w-full flex md:flex-row flex-col items-start '>
-                        <img src={`${publicUrl}/assets/img/blog/division/D5MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d5/Desktop-43.svg`} alt="D5" className='md:w-1/2 w-full rounded-lg' />
                         <div className='md:w-1/2 w-full  flex flex-col justify-center px-6 gap-3'>
                             <p className='text-3xl font-bold' style={{ color: "#5D0000" }}>Panchamsa Chart (D5 – பஞ்சம்ஸ சக்கரம்)</p>
                             <p className='text-black font-medium'>
                                 A powerful divisional chart in Vedic astrology used to analyze fame, power, talents, and self-expression.
                             </p>
-                            <p className='text-black font-medium'>🔍 <strong>D5 – Panchamsa Chart</strong> is used to judge one’s creative energy, influence, and natural charisma.</p>
+                            <p className='text-black font-medium'>🔍 <strong>D5 – Panchamsa Chart</strong> is used to judge one's creative energy, influence, and natural charisma.</p>
                             <p className='text-black font-medium'>📏 <strong>How D5 is Calculated:</strong><br />
                                 Each zodiac sign (30°) is divided into 5 equal parts of 6° each.<br />
                                 So each sign gives 5 Panchamsa divisions → total 60 Panchamsas in the zodiac.
@@ -52,13 +52,13 @@ const Division5 = () => {
                             <ul className='text-black font-medium list-disc pl-5'>
                                 <li>🌟 <strong>Fame & Brilliance:</strong> Natural spotlight, charisma, celebrity energy</li>
                                 <li>🧠 <strong>Talent:</strong> Inner genius, creative spark, artistic ability</li>
-                                <li>🎭 <strong>Self-expression:</strong> What you’re meant to showcase to the world</li>
+                                <li>🎭 <strong>Self-expression:</strong> What you're meant to showcase to the world</li>
                                 <li>🔱 <strong>Power:</strong> Authority, command, and leadership influence</li>
                                 <li>⚡ <strong>Confidence:</strong> How strongly you believe in and project yourself</li>
                             </ul>
 
                             <p className='text-black font-medium'>🎯 <strong>Why D5 is Important:</strong><br />
-                                Even if someone has strong skills, D5 reveals if they’ll receive fame or recognition for it.<br />
+                                Even if someone has strong skills, D5 reveals if they'll receive fame or recognition for it.<br />
                                 Especially important to predict:
                             </p>
                             <ul className='text-black font-medium list-disc pl-5'>
@@ -95,7 +95,7 @@ const Division5 = () => {
                                 Reveal how others perceive you and your unique expression.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/D5MID1.svg`} alt="" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d5/Desktop-43.svg`} alt="D5" className='md:w-1/2 w-full rounded-lg' />
 
                     </div>
                 </div>
