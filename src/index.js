@@ -37,10 +37,17 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
+
 import Division10 from './components/blog-components/Division10.jsx';
 import Division12 from './components/blog-components/Division12.jsx';
 import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
+=======
+import Division6 from './components/blog-components/Division6.jsx';
+import Division7 from './components/blog-components/Division7.jsx';
+import Division9 from './components/blog-components/Division9.jsx';
+
+
 
 
 import "./utils/i18n/i18n.js"
@@ -121,6 +128,7 @@ class Root extends Component {
 											<Route path="/houseinastrology" component={HouseInAstrology}/>
 											<Route path="/kundalimatching" component={KundaliMatching}/>
 											<Route path="/muhurtha" component={Muhurtha}/>
+
 											<Route path="/division" component={Divison}/>
 											<Route path="/division2" component={Division2}/>
 											<Route path="/division3" component={Division3}/>
@@ -140,8 +148,19 @@ class Root extends Component {
 						<Route  path="/blog-components/Division12" component={Division12} />
 						<Route  path="/blog-components/Division16" component={Division16} />
 						<Route  path="/blog-components/Division24" component={Division24} />
+											<Route path="/divison" component={Divison}/>
+											<Route path="/divison2" component={Division2}/>
+											<Route path="/divison3" component={Division3}/>
+											<Route path="/divison5" component={Division5}/>
+											<Route path="/divison6" component={Division6}/>
+											<Route path="/divison7" component={Division7}/>
+											<Route path="/divison9" component={Division9}/>
 
-	                    <Route  path="*" component={Error} />
+
+									
+
+
+											
 
 
 
