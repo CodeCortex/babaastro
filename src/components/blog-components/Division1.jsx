@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Division = () => {
+const Division1 = () => {
     const publicUrl = process.env.PUBLIC_URL || "";
 
     return (
@@ -191,4 +191,4 @@ const Division = () => {
     );
 };
 
-export default Division;
+export default Division1;

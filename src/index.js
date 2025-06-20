@@ -34,7 +34,7 @@ import VastuService from './components/services/VastuService.jsx';
 import VaastuBlog from './components/blog/vaastu/VaastuBlog.jsx';
 import SignInAstrology from './components/blog-components/SignInAstrology.jsx';
 import Planetinastrology from './components/blog-components/Planetsinastrology.jsx';
-import Divison from './components/blog-components/Divison.jsx';
+import Division1 from './components/blog-components/Division1.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
@@ -61,6 +61,7 @@ import HouseInAstrology from './components/blog-components/HouseInAstrology.jsx'
 import KundaliMatching from './components/blog-components/KundaliMatching.jsx';
 import Muhurtha from './components/blog-components/Muhurtha.jsx';
 import Division4 from './components/blog-components/Division4.jsx';
+import DivisionalChartsPage from './components/blog-components/DivisionalChartsPage.jsx';
 
 
 
@@ -124,7 +125,8 @@ class Root extends Component {
 							<Route path="/houseinastrology" component={HouseInAstrology} />
 							<Route path="/kundalimatching" component={KundaliMatching} />
 							<Route path="/muhurtha" component={Muhurtha} />
-							<Route path="/divison" component={Divison} />
+							<Route path="/divison" component={DivisionalChartsPage} />
+							<Route path="/divison1" component={Division1} />
 							<Route path="/divison2" component={Division2} />
 							<Route path="/divison3" component={Division3} />
 							<Route path="/divison4" component={Division4} />
