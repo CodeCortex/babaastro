@@ -33,19 +33,23 @@ import VastuService from './components/services/VastuService.jsx';
 import VaastuBlog from './components/blog/vaastu/VaastuBlog.jsx';
 import SignInAstrology from './components/blog-components/SignInAstrology.jsx';
 import Planetinastrology from './components/blog-components/Planetsinastrology.jsx';
+
+
+
+
+import DivisionalChartsPage from './components/blog-components/DivisionalChartsPage.jsx';
 import Division1 from './components/blog-components/Division1.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
+import Division4 from './components/blog-components/Division4.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
-
+import Division6 from './components/blog-components/Division6.jsx';
+import Division7 from './components/blog-components/Division7.jsx';
+import Division9 from './components/blog-components/Division9.jsx';
 import Division10 from './components/blog-components/Division10.jsx';
 import Division12 from './components/blog-components/Division12.jsx';
 import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
-=======
-import Division6 from './components/blog-components/Division6.jsx';
-import Division7 from './components/blog-components/Division7.jsx';
-import Division9 from './components/blog-components/Division9.jsx';
 
 
 
@@ -65,8 +69,6 @@ import Ascendantsinastrology from './components/blog-components/Ascendantsinastr
 import HouseInAstrology from './components/blog-components/HouseInAstrology.jsx';
 import KundaliMatching from './components/blog-components/KundaliMatching.jsx';
 import Muhurtha from './components/blog-components/Muhurtha.jsx';
-import Division4 from './components/blog-components/Division4.jsx';
-import DivisionalChartsPage from './components/blog-components/DivisionalChartsPage.jsx';
 
 
 
@@ -103,62 +105,68 @@ class Root extends Component {
 
 
 
-	                    <Route  path="/cat-page" component={CatPage} />
-	                    <Route  path="/cat-sports" component={CatSports} />
-	                    <Route  path="/cat-life-style" component={lifeStyle} />
-	                    <Route  path="/cat-fashion" component={Fashion} />
+							<Route path="/cat-page" component={CatPage} />
+							<Route path="/cat-sports" component={CatSports} />
+							<Route path="/cat-life-style" component={lifeStyle} />
+							<Route path="/cat-fashion" component={Fashion} />
 
-	                    <Route  path="/author" component={Author} />
-	                    <Route  path="/error" component={Error} />
-	                    <Route  path="/blog" component={Blog} />
-	                    <Route  path="/blog-details" component={BlogDetails} />
-											<Route  path="/vaastudetail" component={Vaastudetail} />
-											<Route  path="/janmadetail" component={Janmadetail}/>
-											<Route  path="/zodiacdetail" component={Zodiacdetail}/>
-											<Route  path="/businessdetail" component={Businessdetail}/>
-											<Route  path="/vastuservicedetail" component={Vastuservicedetail}/>
-											<Route  path="/lizardastrology" component={LizardAstrology}/>
-											<Route  path="/dreamastrology" component={DreamAstrology}/>
-											<Route  path="/doshadetail" component={DoshaDetail}/>
-											<Route  path="/birthtime" component={BirthTime}/>
-											<Route  path="/palmistry" component={Palmistry}/>
-											<Route  path="/starsinastrology" component={StarsInAstrology}/>
-											<Route  path="/dashasystem" component={DashaSystem}/>
-											<Route  path="/nadiastrology" component={NadiAstrology}/>
-											<Route  path="/nimittaandshakun" component={NimmittaAndShakun}/>
-											<Route path="/signinastrology" component={SignInAstrology}/>
-											<Route path="/planetinastrology" component={Planetinastrology}/>
-											<Route path="/ascendantsinastrology" component={Ascendantsinastrology}/>
-											<Route path="/houseinastrology" component={HouseInAstrology}/>
-											<Route path="/kundalimatching" component={KundaliMatching}/>
-											<Route path="/muhurtha" component={Muhurtha}/>
+							<Route path="/author" component={Author} />
+							<Route path="/error" component={Error} />
+							<Route path="/blog" component={Blog} />
+							<Route path="/blog-details" component={BlogDetails} />
+							<Route path="/vaastudetail" component={Vaastudetail} />
+							<Route path="/janmadetail" component={Janmadetail} />
+							<Route path="/zodiacdetail" component={Zodiacdetail} />
+							<Route path="/businessdetail" component={Businessdetail} />
+							<Route path="/vastuservicedetail" component={Vastuservicedetail} />
+							<Route path="/lizardastrology" component={LizardAstrology} />
+							<Route path="/dreamastrology" component={DreamAstrology} />
+							<Route path="/doshadetail" component={DoshaDetail} />
+							<Route path="/birthtime" component={BirthTime} />
+							<Route path="/palmistry" component={Palmistry} />
+							<Route path="/starsinastrology" component={StarsInAstrology} />
+							<Route path="/dashasystem" component={DashaSystem} />
+							<Route path="/nadiastrology" component={NadiAstrology} />
+							<Route path="/nimittaandshakun" component={NimmittaAndShakun} />
+							<Route path="/signinastrology" component={SignInAstrology} />
+							<Route path="/planetinastrology" component={Planetinastrology} />
+							<Route path="/ascendantsinastrology" component={Ascendantsinastrology} />
+							<Route path="/houseinastrology" component={HouseInAstrology} />
+							<Route path="/kundalimatching" component={KundaliMatching} />
+							<Route path="/muhurtha" component={Muhurtha} />
 
-											<Route path="/division" component={Divison}/>
-											<Route path="/division2" component={Division2}/>
-											<Route path="/division3" component={Division3}/>
-											<Route path="/division5" component={Division5}/>
-											<Route path="/division10" component={Division10}/>
-											<Route path="/division12" component={Division12}/>
-											<Route path="/division16" component={Division16}/>
-											<Route path="/division24" component={Division24}/>
 
-	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
-	                    <Route  path="/blog-components/Planetsinastrology" component={Planetinastrology} />
-	                    <Route  path="/blog-components/Divison" component={Divison} />
-	                    <Route  path="/blog-components/Division2" component={Division2} />
-	                    <Route  path="/blog-components/Division3" component={Division3} />
-	                    <Route  path="/blog-components/Division5" component={Division5} />
-						<Route  path="/blog-components/Division10" component={Division10} />
-						<Route  path="/blog-components/Division12" component={Division12} />
-						<Route  path="/blog-components/Division16" component={Division16} />
-						<Route  path="/blog-components/Division24" component={Division24} />
-											<Route path="/divison" component={Divison}/>
-											<Route path="/divison2" component={Division2}/>
-											<Route path="/divison3" component={Division3}/>
-											<Route path="/divison5" component={Division5}/>
-											<Route path="/divison6" component={Division6}/>
-											<Route path="/divison7" component={Division7}/>
-											<Route path="/divison9" component={Division9}/>
+
+							{/* Divisional Chart Routes */}
+							<Route path="/division_chart" component={DivisionalChartsPage} />
+							<Route path="/division" component={Division1} />
+							<Route path="/division2" component={Division2} />
+							<Route path="/division3" component={Division3} />
+							<Route path="/division5" component={Division5} />
+							<Route path="/division10" component={Division10} />
+							<Route path="/division12" component={Division12} />
+							<Route path="/division16" component={Division16} />
+							<Route path="/division24" component={Division24} />
+
+							<Route path="/blog-components/SignInAstrology" component={SignInAstrology} />
+							<Route path="/blog-components/Planetsinastrology" component={Planetinastrology} />
+							<Route path="/blog-components/Divison" component={Division1} />
+							<Route path="/blog-components/Division2" component={Division2} />
+							<Route path="/blog-components/Division4" component={Division4} />
+							<Route path="/blog-components/Division3" component={Division3} />
+							<Route path="/blog-components/Division5" component={Division5} />
+							<Route path="/blog-components/Division10" component={Division10} />
+							<Route path="/blog-components/Division12" component={Division12} />
+							<Route path="/blog-components/Division16" component={Division16} />
+							<Route path="/blog-components/Division24" component={Division24} />
+							<Route path="/divison" component={Division1} />
+							<Route path="/divison2" component={Division2} />
+							<Route path="/divison3" component={Division3} />
+							<Route path="/divison4" component={Division4} />
+							<Route path="/divison5" component={Division5} />
+							<Route path="/divison6" component={Division6} />
+							<Route path="/divison7" component={Division7} />
+							<Route path="/divison9" component={Division9} />
 
 
 
