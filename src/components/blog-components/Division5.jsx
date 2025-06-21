@@ -7,60 +7,67 @@ const Division5 = () => {
         <div>
             <div
                 style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d5/Desktop-43.svg)`,
+                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d5/D5.svg)`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'top center',
-                    minHeight: '60vh',
+                    minHeight: '100vh',
                     width: '100%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}
             >
-                <h1 style={{ fontSize: '180px', textShadow: '2px 2px 3px black', paddingTop: "120px", paddingBottom: "120px" }} className="text-white font-extrabold sm:text-7xl md:text-9xl">
+                <h1 style={{ fontSize: '180px', textShadow: '2px 2px 3px black', paddingTop: "180px", paddingBottom: "180px" }} className="text-white font-extrabold sm:text-7xl md:text-9xl">
                     D5
                 </h1>
             </div>
 
             <div
-                style={{ backgroundColor: 'white', width: '90vw' }}
-                className="h-56 pt-20 rounded-2xl flex justify-end items-end overflow-visible relative mx-auto mt-12"
+                style={{
+                    background: "linear-gradient(to bottom, #BD5F01 0%, #3F0000 70%)"
+                }}
+                className=" w-full pt-20 pb-20 flex flex-col justify-center items-center"
             >
-                <img
-                    src={`${publicUrl}/assets/img/blog/division/d5/D5 2.svg`}
-                    alt="D5 2"
-                    className="w-[350px] transform scale-[3.5] origin-bottom object-contain"
-                />
-            </div>
+                <div
+                    style={{ backgroundColor: 'white', width: '90vw' }}
+                    className="h-56 pt-20 rounded-2xl flex justify-end items-end overflow-visible relative"
+                >
+                    <img
+                        src={`${publicUrl}/assets/img/blog/division/d5/D5 2.png`}
+                        alt="D5 Main Chart"
+                        className="w-[350px] transform scale-[3.5] origin-bottom object-contain"
+                    />
+                </div>
 
-            <div style={{ background: "linear-gradient(to bottom, #A2D400 0%, #002509 100%)" }} className="w-full pt-20 pb-20 flex flex-col justify-center items-center">
-                <div style={{ backgroundColor: 'white', width: '86vw' }} className='mt-8 p-10 rounded-2xl'>
-                    <div className='w-full flex md:flex-row flex-col items-center mt-20 pb-8 gap-8'>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/Rectangle 39.svg`} alt="Rectangle 39" className="rounded-lg object-contain scale-[1.2] w-full" />
-                        </div>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/Mask group (1).svg`} alt="Mask group (1)" className="rounded-lg object-contain max-w-xs scale-100 w-full" />
-                        </div>
-                    </div>
-                    <div className='w-full flex md:flex-row flex-col items-center mt-20 pb-8 gap-8'>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/WhatsApp Image 2025-04-22 at 2.00.40 PM 1.svg`} alt="WhatsApp Block" className="rounded-lg object-contain scale-[1.2] w-full" />
-                        </div>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 307.svg`} alt="Frame 307" className="rounded-lg object-contain scale-[1.2] w-full" />
+                <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
+                    <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
+                        <img src={`${publicUrl}/assets/img/blog/division/d5/Rectangle 39.png`} alt="D5 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
+                        <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D5 – Panchamsa Chart and Why Does It Matter?</p>
+                            <p className='text-black font-medium' style={{ fontSize: '30px' }}>
+                                The D5 chart, or Panchamsa (பஞ்சம்ச சக்கரம்), is a key divisional chart in Vedic astrology for analyzing fame, creativity, recognition, and legacy. While the D1 chart may show general potential, D5 reveals the deeper layers—why some people stand out, achieve fame, or leave a lasting legacy. It's especially important for those in creative fields, leadership, or anyone seeking to understand their unique talents and blessings.
+                            </p>
                         </div>
                     </div>
-                    <div className="w-full flex flex-col items-center mt-20 pb-8">
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 320.svg`} alt="Frame 320" className="w-full max-w-3xl rounded-lg object-contain scale-100" />
-                    </div>
-                    <div className='w-full flex md:flex-row flex-col items-center mt-20 pb-8 gap-8'>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/Mask group.svg`} alt="Mask group" className="rounded-lg object-contain max-w-xs scale-100 w-full" />
+
+                    <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
+                        <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D5 Calculated and What to Look For?</p>
+                            <p className='text-black font-medium' style={{ fontSize: '30px' }}>
+                                Each zodiac sign is divided into 5 equal parts of 6°, creating 60 Panchamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your creative drive and personal radiance. The 5th house governs creativity, children, and recognition, while the Sun shows fame and leadership. Benefics in the 5th bring artistic blessings, while malefics may indicate struggles for recognition. For example, a strong Sun and 5th lord together point to natural talent and public success, while an afflicted 5th may reflect creative blocks or ego struggles.
+                            </p>
                         </div>
-                        <div className="md:w-1/2 w-full flex flex-col items-center px-6 gap-3">
-                            <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 281.svg`} alt="Frame 281" className="rounded-lg object-contain scale-[1.2] w-full" />
+                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 307.png`} alt="D5 Supporting" className='md:w-1/2 w-full rounded-lg' />
+                    </div>
+
+                    <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
+                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 320.png`} alt="D5 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
+                        <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D5 Chart</p>
+                            <p className='text-black font-medium' style={{ fontSize: '30px' }}>
+                                The D5 chart is an essential tool for artists, leaders, and anyone seeking recognition or to leave a mark. It helps predict success in creative fields, identify unique talents, and guide individuals toward fame or legacy. Whether you're planning a creative career or seeking insight into your personal blessings, the D5 chart reveals how well your soul is aligned with the path of creativity, recognition, and self-expression.
+                            </p>
                         </div>
                     </div>
                 </div>
