@@ -48,12 +48,12 @@ const Division3 = () => {
   <img
     src={publicUrl + '/assets/img/blog/division/drekkana.jpg'}
     alt="Drekkana"
-    className='w-full rounded-lg mb-5' // Add small vertical gap here
+    className='w-full rounded-lg mb-0'
   />
   <img
     src={publicUrl + '/assets/img/blog/division/image.png'}
     alt="D3 Table"
-    className='w-full rounded-lg'
+    className='w-full rounded-lg mb-0'
   />
 </div>
 
@@ -122,18 +122,20 @@ const Division3 = () => {
   </div>
 
   {/* 🖼 Image Section */}
-  <div className='md:w-1/2 w-full flex flex-col items-center md:items-end px-2 mt-6 md:mt-0'>
-    <img src={publicUrl + '/assets/img/blog/division/wheel.jpg'} alt="D3 Drekkana Wheel" className='rounded-lg shadow-lg mb-3' style={{ maxWidth: '320px', width: '100%', height: 'auto' }} />
-    <img src={publicUrl + '/assets/img/blog/division/zodiac.jpg'} alt="Zodiac" className='rounded-lg shadow-lg mb-1' style={{ maxWidth: '320px', width: '100%', height: 'auto' }} />
-    <img src={publicUrl + '/assets/img/blog/division/table.png'} alt="D3 Additional Image" className='rounded-lg shadow-lg' style={{ maxWidth: '320px', width: '100%', height: 'auto' }} />
+
+ <div className='md:w-1/2 w-full flex flex-col items-center md:items-start px-2 mt-6 md:mt-0'>
+    <img src={publicUrl + '/assets/img/blog/division/wheel.jpg'} alt="D3 Drekkana Wheel" className='rounded-lg shadow-lg mb-0' style={{ maxWidth: '420px', width: '100%', height: 'auto' }} />
+    <img src={publicUrl + '/assets/img/blog/division/zodiac.jpg'} alt="Zodiac" className='rounded-lg shadow-lg mb-0' style={{ maxWidth: '420px', width: '100%', height: 'auto' }} />
+    <img src={publicUrl + '/assets/img/blog/division/table.png'} alt="D3 Additional Image" className='rounded-lg shadow-lg mb-0' style={{ maxWidth: '420px', width: '100%', height: 'auto' }} />
   </div>
 </div>
 
                 </div>
-                <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20'>Click for video</h1>
-
-                <div>
-                    <div className='' style={{ height: '80vh', width: "90vw" }}>
+                <div style={{ width: "84vw", maxWidth: "1100px", margin: "32px auto 0 auto" }}>
+                    <h1 className="text-white text-lg lg:text-4xl font-medium py-2 lg:py-4" style={{ textAlign: "left", marginBottom: "8px" }}>
+                        Click for video
+                    </h1>
+                    <div style={{ height: '70vh', width: "100%" }}>
                         <iframe
                             width="100%"
                             height="100%"
@@ -141,16 +143,14 @@ const Division3 = () => {
                             title="YouTube video"
                             allow="autoplay; encrypted-media"
                             allowFullScreen
-                            className=''
-
-                            style={{ borderRadius: '12px' }} // optional: adds rounded corners
+                            style={{ borderRadius: '12px', display: 'block' }}
                         ></iframe>
                     </div>
-
                 </div>
 
                 <h1 style={{ paddingBlock: "" }} className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Astrological remedies if you were not able to buy a house </h1>
 
+              
                 <button
                     style={{ backgroundColor: "#E90000" }}
                     className="bg-[#E90000] border-4 border-white rounded-2xl px-20 py-3 lg:py-6 hover:text-red-500 text-white text-xl lg:text-4xl hover:text-red shadow-lg hover:bg-white  transition duration-300"
