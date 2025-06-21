@@ -42,11 +42,13 @@ import Division10 from './components/blog-components/Division10.jsx';
 import Division12 from './components/blog-components/Division12.jsx';
 import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
-=======
+
+
+
 import Division6 from './components/blog-components/Division6.jsx';
 import Division7 from './components/blog-components/Division7.jsx';
 import Division9 from './components/blog-components/Division9.jsx';
-
+import planetstrength from './components/blog-components/planetstrength.jsx';
 
 
 
@@ -137,6 +139,8 @@ class Root extends Component {
 											<Route path="/division12" component={Division12}/>
 											<Route path="/division16" component={Division16}/>
 											<Route path="/division24" component={Division24}/>
+											<Route path="/planetstrength" component={planetstrength}/>
+
 
 	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
 	                    <Route  path="/blog-components/Planetsinastrology" component={Planetinastrology} />

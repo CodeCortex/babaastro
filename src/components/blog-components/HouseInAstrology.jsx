@@ -1,220 +1,340 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Sidebar from './sidebar';
-class HouseInAstrology extends Component {
-    render() {
-        let publicUrl = process.env.PUBLIC_URL + '/'
-        let imagealt = 'image'
+import React from 'react';
 
-        return (
-            <div className="blog-page-area  pd-bottom-80 go-top">
-                <div className="container ">
-                    <div className="row">
-                        <div className="col-lg-8 pd-top-50 Boxash" >
-                            <div className="blog-details-page-inner">
-                                <div className="single-blog-inner m-0">
-                                    <div className="single-post-wrap style-overlay">
-                                        <div className="thumb">
-                                            <img src={publicUrl + "assets/img/blog/starss.png"} alt="img" />
-                                        </div>
-                                        <div className="details pb-4">
-                                            <div className="post-meta-single mb-2">
-                                                <ul>
-                                                    <li><p><i className="fa fa-clock-o" />28 March 2025</p></li>
-                                                </ul>
-                                            </div>
-                                            <h5 className="title mt-0">Stars In Astrology</h5>
-                                        </div>
-                                    </div>
-                                    <div className="single-blog-details">
-                                    </div>
+const Division2 = () => {
+    const publicUrl = process.env.PUBLIC_URL || "";
 
-
-
-
-
-
-
-
-
-
-
-
-                                    <section class="bg-white py-12">
-                                        <div class="max-w-7xl mx-auto px-4">
-                                            <h2 class="text-3xl font-bold text-gray-800 mb-6">🏠 12 Houses in Vedic Astrology (பாவங்கள்)</h2>
-                                            <p class="text-gray-600 mb-8">Each house (பாவம்) reflects a different life domain — like career, marriage, money, health, etc. They are counted from the Ascendant (Lagna / லக்னம்).</p>
-                                            <div class="overflow-x-auto">
-                                                <table class="min-w-full table-auto border border-gray-200">
-                                                    <thead class="bg-gray-100">
-                                                        <tr>
-                                                            <th class="px-4 py-2 text-left text-sm font-semibold text-gray-700">House</th>
-                                                            <th class="px-4 py-2 text-left text-sm font-semibold text-gray-700">Tamil Name</th>
-                                                            <th class="px-4 py-2 text-left text-sm font-semibold text-gray-700">Represents</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="divide-y divide-gray-200">
-                                                        <tr>
-                                                            <td class="px-4 py-2">1st House</td>
-                                                            <td class="px-4 py-2">லக்ன பாவம்</td>
-                                                            <td class="px-4 py-2">🧍 Self, personality, body, health, beginnings</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">2nd House</td>
-                                                            <td class="px-4 py-2">தன பாவம்</td>
-                                                            <td class="px-4 py-2">💰 Money, speech, family, values, food</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">3rd House</td>
-                                                            <td class="px-4 py-2">சகோதர பாவம்</td>
-                                                            <td class="px-4 py-2">📝 Siblings, courage, communication, efforts</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">4th House</td>
-                                                            <td class="px-4 py-2">மான்ச பாவம்</td>
-                                                            <td class="px-4 py-2">🏡 Mother, home, comforts, vehicles, emotions</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">5th House</td>
-                                                            <td class="px-4 py-2">புத்திர பாவம்</td>
-                                                            <td class="px-4 py-2">🎓 Children, education, intelligence, romance</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">6th House</td>
-                                                            <td class="px-4 py-2">ஷட்ரு பாவம்</td>
-                                                            <td class="px-4 py-2">⚔️ Enemies, debts, diseases, obstacles</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">7th House</td>
-                                                            <td class="px-4 py-2">கலத்ர பாவம்</td>
-                                                            <td class="px-4 py-2">💍 Marriage, spouse, business partnerships</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">8th House</td>
-                                                            <td class="px-4 py-2">அஷ்டம பாவம்</td>
-                                                            <td class="px-4 py-2">☠️ Longevity, secrets, transformation, inheritance</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">9th House</td>
-                                                            <td class="px-4 py-2">பாக்ய பாவம்</td>
-                                                            <td class="px-4 py-2">🙏 Luck, dharma, father, fortune, higher learning</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">10th House</td>
-                                                            <td class="px-4 py-2">கர்ம பாவம்</td>
-                                                            <td class="px-4 py-2">👔 Career, reputation, status, public life</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">11th House</td>
-                                                            <td class="px-4 py-2">லாப பாவம்</td>
-                                                            <td class="px-4 py-2">📈 Gains, income, friends, desires, success</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="px-4 py-2">12th House</td>
-                                                            <td class="px-4 py-2">விருக்தி பாவம்</td>
-                                                            <td class="px-4 py-2">🧘 Losses, moksha, foreign lands, sleep, expenses</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </section>
-
-
-
-
-
-
-                                    <section class="bg-gray-50 py-12">
-                                        <div class="max-w-4xl mx-auto px-4">
-                                            <h3 class="text-2xl font-semibold text-gray-800 mb-4">🧭 How to Use the Houses in Reading:</h3>
-                                            <ul class="list-disc list-inside text-gray-700 space-y-2">
-                                                <li><strong>House Lord:</strong> The planet ruling the sign in that house</li>
-                                                <li><strong>House Occupants:</strong> Which planets sit in the house</li>
-                                                <li><strong>Aspects (Drishti):</strong> Which planets aspect the house</li>
-                                                <li><strong>Karaka (Significator):</strong> Natural planet related to that house's theme (e.g., Venus for 7th, Jupiter for 5th)</li>
-                                            </ul>
-                                            <blockquote class="mt-6 border-l-4 border-blue-500 pl-4 italic text-gray-600">
-                                                "Each house is a stage in your soul’s journey — from birth (1st) to liberation (12th)."
-                                            </blockquote>
-                                        </div>
-                                    </section>
-
-
-
-
-                                    <section class="bg-white py-12">
-  <div class="max-w-4xl mx-auto px-4">
-    <h3 class="text-2xl font-semibold text-gray-800 mb-4">✅ Bonus Tips</h3>
-    <ul class="list-disc list-inside text-gray-700 space-y-2">
-      <li>Analyze the strength of planets with <strong>Shadbala</strong> before judging their results.</li>
-      <li>Retrograde planets often give different results in different houses.</li>
-      <li>For career, examine 1st (self), 10th (profession), 6th (service), and 11th (gains).</li>
-      <li>Marriage predictions use 1st (self), 7th (partner), 2nd (family), and Venus/Mars/Jupiter influence.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="bg-gray-50 py-12">
-  <div class="max-w-5xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-gray-800 mb-6">🧠 Shadbala Summary (6-Fold Planetary Strength)</h2>
-    <p class="text-gray-600 mb-6">Shadbala evaluates how strong a planet is to deliver its results effectively. It includes:</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-blue-600 mb-2">1️⃣ Sthana Bala (Positional Strength)</h4>
-        <p class="text-gray-700">Strength from position in exaltation, own sign, mooltrikona, etc.</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-green-600 mb-2">2️⃣ Dig Bala (Directional Strength)</h4>
-        <p class="text-gray-700">Gained when planets are in their favorable directions (e.g., Jupiter in 1st, Mars in 10th).</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-purple-600 mb-2">3️⃣ Kala Bala (Temporal Strength)</h4>
-        <p class="text-gray-700">Time-based strength — based on year, month, day, hora, etc.</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-yellow-600 mb-2">4️⃣ Chesta Bala (Motional Strength)</h4>
-        <p class="text-gray-700">Gained when planets are retrograde or stationary — powerful states!</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-pink-600 mb-2">5️⃣ Naisargika Bala (Natural Strength)</h4>
-        <p class="text-gray-700">Intrinsic strength by nature — e.g., Sun is stronger than Moon, Jupiter stronger than Mercury, etc.</p>
-      </div>
-      <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-        <h4 class="text-xl font-semibold text-red-600 mb-2">6️⃣ Drik Bala (Aspect Strength)</h4>
-        <p class="text-gray-700">Gained when planets receive auspicious aspects and not malefic ones.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <Sidebar />
-                    </div>
-                </div>
+    return (
+        <div style={{ fontFamily: "'Poppins', sans-serif" }}>
+            <div style={{
+                backgroundImage: `url(${publicUrl}/assets/img/blog/houseinastrology/image1.png)`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center center',
+                width: '100%',
+                height: '100vh',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                backgroundColor: '#A3CBFF',
+                margin: 0,
+                padding: 0,
+                border: 'none'
+            }}>
+                <h1 style={{
+                    fontSize: 'clamp(40px, 8vw, 80px)',
+                    textShadow: '2px 2px 3px black',
+                    color: 'white',
+                    fontWeight: 700,
+                    textAlign: 'center',
+                    padding: 0,
+                    margin: 0
+                }}>
+                    Houses <br /> in Astrology
+                </h1>
             </div>
 
-        )
-    }
-}
+            <div
+                style={{
+                    background: "linear-gradient(to bottom,#A3CBFF )"
+                }}
+                className=" w-full pt-20 pb-100 flex flex-col justify-center items-center"
+            >
+                <h1 
+                    className="text-5xl font-bold mb-8 text-left text-red-900"
+                    style={{
+                        textShadow: "2px 2px 4px rgba(0,0,0,0)",
+                        lineHeight: "1.3",
+                        fontWeight: 700
+                    }}
+                >
+                    The 12 Houses in Vedic Astrology (Bhavas / பாவங்கள்)
+                </h1>
+                
+                <p className="mb-8 text-3xl leading-relaxed text-red-900 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
+                    In Vedic Astrology, the 12 Houses — known as Bhavas (பாவங்கள்) in Tamil — form the core of any birth chart (ஜாதகம்). Each house governs a specific area of life and unfolds the story of our spiritual and material journey.
+                </p>
 
-export default HouseInAstrology;
+                <div>
+                    <img 
+                        src={publicUrl + "assets/img/blog/houseinastrology/image2.png"} 
+                        alt="Astrology Ascendant" 
+                        className="rounded-lg"
+                        style={{
+                            width: '1400px',
+                            height: 'auto',
+                            maxWidth: '100%'
+                        }}
+                    />
+                </div>
+                
+                <br />
+                <br />
+                
+                <h1 
+                    className="text-5xl font-bold mb-8 text-red-900 text-left"
+                    style={{
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    What Are the Houses?
+                </h1>
+
+                <br />
+
+                <img 
+                    src={publicUrl + "assets/img/blog//houseinastrology/image3.png"} 
+                    alt="Astrology Ascendant" 
+                    className="rounded-lg"
+                    style={{
+                        width: '1400px',
+                        height: 'auto',
+                        maxWidth: '100%'
+                    }}
+                />
+                
+                
+                
+                <p className="mb-10 text-3xl leading-relaxed text-red-900 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
+                    Each house (பாவம்) begins from the Ascendant (Lagna / லக்னம்) and reflects a different domain of life — like career, marriage, money, health, and more. These houses not only shape our personality but also reveal our karmic patterns and life purpose.
+                  
+                </p>
+<br></br>
+                <h1 
+                    className="text-5xl font-bold mb-8 text-red-900 text-left"
+                    style={{
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    Overview of the 12 Houses
+                </h1>
+
+    
+
+                <div className="mb-8">
+                    <div className="overflow-x-auto my-4 mx-auto" style={{ width: '100%', maxWidth: '2000px' }}>
+                        <table className="w-full table-auto border-2 border-black text-lg" style={{ minWidth: '1400px', fontFamily: "'Poppins', sans-serif" }}>
+                            <thead className="bg-white">
+                                <tr className="border-b-2 border-black">
+                                    <th className="px-4 py-3 border-r border-black text-center font-semibold" style={{ fontWeight: 700 }}>House</th>
+                                    <th className="px-4 py-3 border-r border-black text-center font-semibold" style={{ fontWeight: 700 }}>Tamil Name</th>
+                                    <th className="px-4 py-3 text-center font-semibold" style={{ fontWeight: 700 }}>Represents</th>
+                                </tr>
+                            </thead>
+                            <tbody className="bg-white">
+                                {[
+                                    ["1st", "லக்கன பாவம்", "Self, personality, body, health, beginnings"],
+                                    ["2nd", "தன பாவம்", "Money, speech, family, values, food"],
+                                    ["3rd", "சகோதர பாவம்", "Siblings, courage, communication, efforts"],
+                                    ["4th", "மாண்ச பாவம்", "Mother, home, comforts, vehicles, emotions"],
+                                    ["5th", "புத்திர பாவம்", "Children, education, intelligence, romance"],
+                                    ["6th", "ஷட்ரு பாவம்", "Enemies, debts, diseases, obstacles"],
+                                    ["7th", "கலத்ர பாவம்", "Marriage, spouse, business partnerships"],
+                                    ["8th", "அஷ்டம பாவம்", "Longevity, secrets, transformation, inheritance"],
+                                    ["9th", "பாக்ய பாவம்", "Luck, dharma, father, higher learning"],
+                                    ["10th", "கர்ம பாவம்", "Career, reputation, status, public life"],
+                                    ["11th", "லாப பாவம்", "Gains, income, friends, desires, success"],
+                                    ["12th", "விருக்தி பாவம்", "Losses, moksha, foreign lands, sleep, expenses"]
+                                ].map(([house, tamil, meaning], index) => (
+                                    <tr key={index} className="border-b border-black even:bg-gray-100">
+                                        <td className="px-4 py-3 border-r border-black text-center" style={{ fontWeight: 500 }}>{house}</td>
+                                        <td className="px-4 py-3 border-r border-black text-center" style={{ fontWeight: 500 }}>{tamil}</td>
+                                        <td className="px-4 py-3 text-center" style={{ fontWeight: 500 }}>{meaning}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+<br></br>
+             
+
+                <h1 
+                    className="text-5xl font-bold mb-8 text-red-900 text-left"
+                    style={{
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    How to Interpret the Houses
+                </h1>
+
+              <div className="overflow-x-auto my-8 mx-auto" style={{ width: '100%', maxWidth: '1400px' }}>
+  <table className="w-full table-auto border-2 border-black text-base" style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <thead className="bg-white">
+      <tr className="border-b-2 border-black">
+        <th 
+          className="px-6 py-4 text-center font-semibold text-lg" 
+          style={{ 
+            fontWeight: 700,
+            width: '50%',
+            borderRight: '2px solid black' // Solid black divider
+          }}
+        >
+          Element
+        </th>
+        <th 
+          className="px-6 py-4 text-center font-semibold text-lg" 
+          style={{ fontWeight: 700, width: '50%' }}
+        >
+          Explanation
+        </th>
+      </tr>
+    </thead>
+    <tbody className="bg-white">
+      {[
+        ["House Lord", "The planet ruling the zodiac sign in that house"],
+        ["House Occupants", "Planets sitting in the house (they influence its results)"],
+        ["Aspects (Drishti)", "Planets that cast their aspect on the house (can enhance or challenge it)"],
+        ["Karaka (Significator)", "Natural planet associated with the house's theme (e.g., Venus for 7th)"]
+      ].map(([element, explanation], index) => (
+        <tr key={index} className="border-b border-black even:bg-gray-50">
+          <td 
+            className="px-6 py-4 text-center" 
+            style={{ 
+              fontWeight: 500,
+              width: '50%',
+              borderRight: '2px solid black' // Solid black divider
+            }}
+          >
+            {element}
+          </td>
+          <td 
+            className="px-6 py-4 text-center" 
+            style={{ fontWeight: 500, width: '50%' }}
+          >
+            {explanation}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+                <br />
+
+                <h1 
+                    className="text-5xl font-bold mb-8 text-red-900 text-left"
+                    style={{
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    Spiritual Insight
+                    <br />
+                    <p className="text-2xl font-semibold text-red-900" style={{ fontWeight: 600 }}>
+                        <br />
+                        Each house is a stage in your soul's journey — from birth (1st) to liberation (12th).
+                    </p>
+                </h1>
+
+                <br />
+
+                <h1 
+                    className="text-5xl font-bold mb-8 text-red-900 text-left"
+                    style={{
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    Bonus Tips for Beginners
+                    <br />
+                    <p className="text-2xl text-red-900" style={{ fontWeight: 400 }}>
+                        <br />
+                        The Kendra houses (1, 4, 7, 10) are power centers.<br />
+                        <br></br>
+                        Trikona houses (1, 5, 9) are most auspicious (Dharma).<br />
+                        <br></br>
+                        Dusthana houses (6, 8, 12) show challenges — but also great spiritual potential.
+                    </p>
+                </h1>
+
+               <h1 
+    className="mb-8 text-left text-black"
+    style={{
+        fontWeight: 700,
+        fontSize: "50px",
+        paddingLeft: "3rem",
+        paddingRight: "5rem",
+        lineHeight: "1.3",
+        marginRight: "0rem",
+        marginLeft: "0",
+        width: "calc(100% - 2rem)",
+        color: "#000000" // Explicit black color
+    }}
+>
+    Click for video
+</h1>
+                
+                <div>
+                    <div className='' style={{ height: '80vh', width: "90vw" }}>
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/SKeF4Ymwt1Y?autoplay=1&mute=1&rel=0&showinfo=0"
+                            title="YouTube video"
+                            allow="autoplay; encrypted-media"
+                            allowFullScreen
+                            className=''
+                            style={{ borderRadius: '12px' }}
+                        ></iframe>
+                    </div>
+                </div>
+                
+                <div className="w-full text-center">
+                    <h1 className='text-black text-xl lg:text-4xl font-bold py-8 lg:py-16 mx-auto' style={{ fontWeight: 700 }}>
+                        Astrological remedies if you were not able to buy a house
+                    </h1>
+                </div>
+                
+                <div className="flex flex-col items-center space-y-8">
+                    <button
+                        style={{ backgroundColor: "#E90000", fontFamily: "'Poppins', sans-serif" }}
+                        className="w-full max-w-[200px] border-4 border-white px-4 py-2 lg:py-4 hover:text-red-500 text-white text-lg lg:text-3xl shadow-lg hover:bg-white transition duration-300"
+                    >
+                        Check Now
+                    </button>
+
+                    <h1 className="text-black text-xl lg:text-4xl font-bold py-8 lg:py-16 mx-auto text-center" style={{ fontWeight: 700 }}>
+                        Ask a question talk to the best astrologer
+                    </h1>
+
+                    <button
+                        onClick={() => window.open("https://wa.me/+919508801096", "_blank")}
+                        style={{ background: "#00980A", fontFamily: "'Poppins', sans-serif" }}
+                        className="w-full max-w-[200px] border-4 border-white px-4 py-2 lg:py-4 hover:text-white text-white text-lg lg:text-3xl shadow-lg hover:bg-white transition duration-300"
+                    >
+                        Chat on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Division2;
