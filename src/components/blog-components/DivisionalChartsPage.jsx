@@ -61,7 +61,7 @@ const Division = () => {
                             className="text-2xl md:text-3xl font-bold text-center md:text-right"
                             style={{ color: '#5D0000', fontWeight: 'bold' }}
                         >
-                            Why the D1 Chart is Important
+                            What are Divisional Charts?
                         </p>
                     </div>
 
