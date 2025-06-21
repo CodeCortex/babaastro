@@ -44,7 +44,6 @@ import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
 
 
-
 import Division6 from './components/blog-components/Division6.jsx';
 import Division7 from './components/blog-components/Division7.jsx';
 import Division9 from './components/blog-components/Division9.jsx';
