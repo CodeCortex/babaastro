@@ -44,7 +44,7 @@ const Division9= () => {
 
                 <div style={{ backgroundColor: 'white', width: '100%', maxWidth: '86vw' }} className='mt-8 px-2 md:px-8 py-4 md:py-8 rounded-lg'>
                   <div className='flex flex-col md:flex-row items-start mb-6'>
-                    <img src={publicUrl + '/assets/img/blog/division/D9vergottamma.png'} alt="Potential of Vargottama" className='w-full md:w-1/3 max-w-xs md:max-w-xs rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6' style={{objectFit: 'cover'}} />
+                    <img src={publicUrl + '/assets/img/blog/division/D9vergottamma.png'} alt="Potential of Vargottama" className='w-full md:w-1/3 max-w-xs md:max-w-xs rounded-lg shadow-lg mb-0 md:mb-0 md:mr-6' style={{objectFit: 'cover'}} />
                     <div className='md:w-2/3 w-full'>
                       <h2 className='text-lg md:text-2xl font-bold mb-2' style={{ color: '#7B1F1F' }}>What is the D9 – Navamsa Chart and Why Does It Matter?</h2>
                       <p className='text-black font-medium text-sm md:text-base' style={{textAlign: 'justify'}}>
@@ -60,11 +60,11 @@ const Division9= () => {
                         Each zodiac sign (30°) is divided into nine equal parts of 3°20', resulting in 108 Navamsa divisions. A planet's placement in the D1 chart determines its new sign in D9, providing a refined view of its real potency. Key areas to analyze include the Lagna and Lagna Lord (for spiritual identity), 7th house and its lord (for marriage quality), and Vargottama planets, which hold great strength when occupying the same sign in D1 and D9. Venus (for men) and Jupiter (for women) are particularly significant in D9, revealing marital bliss or lessons. Benefics in the 7th house indicate bonding and harmony, while malefics suggest challenges or karmic adjustments in relationships.
                       </p>
                     </div>
-                    <img src={publicUrl + '/assets/img/blog/division/D9Table.jpg'} alt="D9 Table" className='w-full md:w-1/2 max-w-xs sm:max-w-md md:max-w-lg rounded-lg shadow-lg border border-gray-300' style={{objectFit: 'contain'}} />
+                    <img src={publicUrl + '/assets/img/blog/division/D9Table.jpg'} alt="D9 Table" className='w-full md:w-1/2 max-w-xs sm:max-w-md md:max-w-lg rounded-lg shadow-lg border border-gray-300 mb-0' style={{objectFit: 'contain'}} />
                   </div>
 
                   <div className='flex flex-col md:flex-row items-start border border-red-400 rounded-lg p-2 md:p-4'>
-                    <img src={publicUrl + '/assets/img/blog/division/D9Chart.jpg'} alt="D9 Chart" className='w-full md:w-1/2 max-w-xs sm:max-w-md md:max-w-md rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6' style={{objectFit: 'cover'}} />
+                    <img src={publicUrl + '/assets/img/blog/division/D9Chart.jpg'} alt="D9 Chart" className='w-full md:w-1/2 max-w-xs sm:max-w-md md:max-w-md rounded-lg shadow-lg mb-0 md:mb-0 md:mr-6' style={{objectFit: 'cover'}} />
                     <div className='md:w-1/2 w-full'>
                       <h2 className='text-lg md:text-2xl font-bold mb-2' style={{ color: '#7B1F1F', borderBottom: '1px dashed #7B1F1F' }}>Practical Benefits of Analyzing the D9 Chart</h2>
                       <p className='text-black font-medium text-sm md:text-base' style={{textAlign: 'justify'}}>
@@ -73,9 +73,11 @@ const Division9= () => {
                     </div>
                   </div>
                 </div>
-                <h1 className='text-white text-xl md:text-2xl lg:text-6xl font-extrabold py-6 md:py-10 lg:py-20 text-center'>Click for video</h1>
-                <div>
-                    <div className='' style={{ height: '80vh', width: "90vw" }}>
+                <div style={{ width: "84vw", maxWidth: "1100px", margin: "32px auto 0 auto" }}>
+                    <h1 className="text-white text-lg lg:text-4xl font-medium py-2 lg:py-4" style={{ textAlign: "left", marginBottom: "8px" }}>
+                        Click for video
+                    </h1>
+                    <div style={{ height: '70vh', width: "100%" }}>
                         <iframe
                             width="100%"
                             height="100%"
@@ -83,12 +85,9 @@ const Division9= () => {
                             title="YouTube video"
                             allow="autoplay; encrypted-media"
                             allowFullScreen
-                            className=''
-
-                            style={{ borderRadius: '12px' }} // optional: adds rounded corners
+                            style={{ borderRadius: '12px', display: 'block' }}
                         ></iframe>
                     </div>
-
                 </div>
                 <h1 style={{ paddingBlock: "" }} className='text-white text-xl md:text-2xl lg:text-6xl font-extrabold py-6 md:py-10 px-4 md:px-8 lg:px-40 text-center'>Astrological remedies if you were not able to buy a house </h1>
                 <div className='w-full flex justify-center'>
