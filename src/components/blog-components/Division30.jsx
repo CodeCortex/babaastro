@@ -27,7 +27,7 @@ const Division2 = () => {
                     }}
                     className="text-white font-extrabold"
                 >
-                    D24
+                    D30
                 </h1>
             </div>
 
@@ -50,29 +50,47 @@ const Division2 = () => {
 
                 <div style={{ backgroundColor: "white", width: "95vw", maxWidth: "1200px" }} className='mt-8 p-4 sm:p-10 rounded-xl'>
                     <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_page-0001.png`} alt="" className="md:w-1/2 w-full rounded-lg object-cover scale-100" />
+                        <div className="flex flex-col md:w-1/2 w-full gap-4 mt-6 mb-2  inline-block">
+                            <img
+                                src={`${publicUrl}/assets/img/blog/division/D30_table.jpg`}
+                                alt=""
+                                className="w-full rounded-lg object-cover scale-100 "
+                            />
+                            <img
+                                src={`${publicUrl}/assets/img/blog/division/D30_001.jpg`}
+                                alt=""
+                                className="w-full rounded-lg object-cover scale-100 border-2 "
+                            />
+                        </div>
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D24 – Siddhamsa Chart and Why Does It Matter?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D30 – Trimsamsa Chart and Why Is It So Karmic?</p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
-                                The D24 chart, or Siddhamsa (சித்தம்ச சக்கரம்), is the key divisional chart in Vedic astrology for analyzing education, intelligence, learning style, and spiritual wisdom. While the D1 chart may show academic potential on the surface, D24 reveals the deeper layers—why some students excel easily while others struggle despite effort. It's especially important for those pursuing higher studies, scriptural learning, or careers in teaching and research. For spiritual seekers, the D24 also indicates one’s karmic connection to sacred knowledge and the ability to act as a vessel for wisdom.
+                                The D30 chart, or Trimsamsa (திரிம்சம்ச சக்கரம்), is one of the most sensitive and karmically intense divisional charts in Vedic astrology. It exposes the hidden causes of suffering, misfortune, curses, and inner psychological turmoil. While your D1 chart may show strength, D30 often reveals the underlying reasons for unexplained losses, illnesses, or emotional pain. Known as the chart of the “inner shadow,” it highlights spiritual debts from past lives and the darker aspects of the soul’s journey—things we must face and heal to evolve.
                             </p>
                         </div>
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D24 Calculated and What to Look For?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D30 Calculated and What to Look For?</p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
-                                Each zodiac sign is divided into 24 equal parts of 1°15′, creating 288 Siddhamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your learning approach and mental strength. The 4th house governs foundational education and memory, while the 9th house shows higher learning, divine guidance, and philosophical depth. Mercury is vital for intellectual clarity and expression, Jupiter for wisdom and spiritual learning, and Saturn for discipline—or delays if afflicted. For example, strong Mercury and Jupiter together point to natural teaching ability, while an afflicted 4th house might reflect early learning blocks or distractions.
+                                Each zodiac sign is divided into 30 parts of 1°, resulting in 360 Trimsamsa divisions, but unlike other charts, it follows different rules for odd and even signs (as per the Parashara system). In this chart, key areas to examine include the Lagna and its lord (your inner resilience), the 6th, 8th, and 12th houses (for disease, enemies, and hidden suffering), and malefics like Mars, Saturn, Rahu, and Ketu, which often act as karmic triggers. Planets like Moon and Mercury reveal mental and emotional stability, while benefics in Kendras point to the ability to heal and transcend. For example, an afflicted Moon may indicate anxiety or insomnia, while a well-placed Ketu in the 12th house might suggest spiritual liberation through loss.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_whatsapp.jpg`} alt="" className='md:w-1/2 w-full rounded-lg object-cover mt-4 md:mt-0' />
+                        <img src={`${publicUrl}/assets/img/blog/division/D30_table2.jpg`} alt="" className='md:w-1/2 w-full rounded-lg object-cover mt-4 md:mt-0' />
                     </div>
 
-                    <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_page-3.jpg`} alt="" className='md:w-1/2 w-full rounded-lg object-cover scale-100' />
-                        <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D24 Chart</p>
+                    <div className='w-full flex md:flex-row flex-col items-stretch mt-10 pb-8 gap-6'>
+                        <img
+                            src={`${publicUrl}/assets/img/blog/division/D30_002.jpg`}
+                            alt=""
+                            className='md:w-1/2 w-full rounded-lg object-cover scale-100 h-full'
+                            style={{ objectFit: 'cover' }}
+                        />
+                        <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3 h-full'>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>
+                                Practical Benefits of Analyzing the D24 Chart
+                            </p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
                                 The D24 chart is an essential tool for students, scholars, and anyone on a learning path—academic or spiritual. It helps predict success in education, identify the right stream of study, and even guide aspirants toward teaching or guru roles. It also explains why certain individuals struggle in formal education yet thrive in self-taught spiritual or intuitive learning paths. Whether you’re planning your academic future or seeking insight into your deeper wisdom channels, the D24 chart reveals how well your soul is aligned with the path of knowledge, discipline, and inner enlightenment.
                             </p>
@@ -82,7 +100,7 @@ const Division2 = () => {
 
                 <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20 text-center'>Click for video</h1>
 
-                <div className="w-[95vw] max-w-6xl" style={{ height: '50vh', width: `90vh`, minHeight: 250, minWidth:100 }}>
+                <div className="w-[95vw] max-w-6xl" style={{ height: '50vh', width: `90vh`, minHeight: 250, minWidth: 100 }}>
                     <iframe
                         width="100%"
                         height="100%"
