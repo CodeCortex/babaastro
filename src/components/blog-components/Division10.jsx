@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Division5 = () => {
+const Division10 = () => {
     const publicUrl = process.env.PUBLIC_URL || "";
 
     return (
         <div>
             <div
                 style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d5/D5.svg)`,
+                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d10/D10.svg)`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'top center',
@@ -19,7 +19,7 @@ const Division5 = () => {
                 }}
             >
                 <h1 style={{ fontSize: '180px', textShadow: '2px 2px 3px black', paddingTop: "180px", paddingBottom: "180px" }} className="text-white font-extrabold sm:text-7xl md:text-9xl">
-                    D5
+                    D10
                 </h1>
             </div>
 
@@ -34,39 +34,39 @@ const Division5 = () => {
                     className="h-56 pt-20 rounded-2xl flex justify-end items-end overflow-visible relative"
                 >
                     <img
-                        src={`${publicUrl}/assets/img/blog/division/d5/D5 2.png`}
-                        alt="D5 Main Chart"
+                        src={`${publicUrl}/assets/img/blog/division/d10/D10 2.png`}
+                        alt="D10 Main Chart"
                         className="w-[350px] transform scale-[3.5] origin-bottom object-contain"
                     />
                 </div>
 
                 <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Rectangle 39.png`} alt="D5 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
+                        <img src={`${publicUrl}/assets/img/blog/division/d10/Rectangle 39.png`} alt="D10 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D5 – Panchamsa Chart and Why Does It Matter?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D10 – Dashamsa Chart and Why Does It Matter?</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                The D5 chart, or Panchamsa (பஞ்சம்ச சக்கரம்), is a key divisional chart in Vedic astrology for analyzing fame, creativity, recognition, and legacy. While the D1 chart may show general potential, D5 reveals the deeper layers—why some people stand out, achieve fame, or leave a lasting legacy. It's especially important for those in creative fields, leadership, or anyone seeking to understand their unique talents and blessings.
+                                The D10 chart, or Dashamsa (தசம்ச சக்கரம்), is a key divisional chart in Vedic astrology for analyzing career, profession, reputation, and public achievements. While the D1 chart may show general potential, D10 reveals the deeper layers—why some people rise to the top in their field, achieve status, or gain public respect. It's especially important for those focused on career growth, leadership, or anyone seeking to understand their professional destiny.
                             </p>
                         </div>
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D5 Calculated and What to Look For?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D10 Calculated and What to Look For?</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                Each zodiac sign is divided into 5 equal parts of 6°, creating 60 Panchamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your creative drive and personal radiance. The 5th house governs creativity, children, and recognition, while the Sun shows fame and leadership. Benefics in the 5th bring artistic blessings, while malefics may indicate struggles for recognition. For example, a strong Sun and 5th lord together point to natural talent and public success, while an afflicted 5th may reflect creative blocks or ego struggles.
+                                Each zodiac sign is divided into 10 equal parts of 3°, creating 120 Dashamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your professional drive and public image. The 10th house governs career, status, and achievements, while the Sun and Saturn show leadership and discipline. Benefics in the 10th bring career blessings, while malefics may indicate struggles for recognition. For example, a strong Sun and 10th lord together point to natural leadership and public success, while an afflicted 10th may reflect career blocks or reputation struggles.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 307.png`} alt="D5 Supporting" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d10/Frame 307.png`} alt="D10 Supporting" className='md:w-1/2 w-full rounded-lg' />
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 320.png`} alt="D5 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d10/Frame 320.png`} alt="D10 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D5 Chart</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D10 Chart</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                The D5 chart is an essential tool for artists, leaders, and anyone seeking recognition or to leave a mark. It helps predict success in creative fields, identify unique talents, and guide individuals toward fame or legacy. Whether you're planning a creative career or seeking insight into your personal blessings, the D5 chart reveals how well your soul is aligned with the path of creativity, recognition, and self-expression.
+                                The D10 chart is an essential tool for professionals, leaders, and anyone seeking recognition or to leave a mark in their field. It helps predict success in career, identify unique talents, and guide individuals toward public achievement. Whether you're planning a professional path or seeking insight into your public blessings, the D10 chart reveals how well your soul is aligned with the path of career, reputation, and accomplishment.
                             </p>
                         </div>
                     </div>
@@ -101,4 +101,4 @@ const Division5 = () => {
     );
 };
 
-export default Division5;
+export default Division10;

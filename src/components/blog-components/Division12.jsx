@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Division5 = () => {
+const Division12 = () => {
     const publicUrl = process.env.PUBLIC_URL || "";
 
     return (
         <div>
             <div
                 style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d5/D5.svg)`,
+                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d12/D12.png)`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'top center',
@@ -19,13 +19,13 @@ const Division5 = () => {
                 }}
             >
                 <h1 style={{ fontSize: '180px', textShadow: '2px 2px 3px black', paddingTop: "180px", paddingBottom: "180px" }} className="text-white font-extrabold sm:text-7xl md:text-9xl">
-                    D5
+                    D12
                 </h1>
             </div>
 
             <div
                 style={{
-                    background: "linear-gradient(to bottom, #BD5F01 0%, #3F0000 70%)"
+                    background: "linear-gradient(to bottom, #A2D400 0%, #002509 100%)"
                 }}
                 className=" w-full pt-20 pb-20 flex flex-col justify-center items-center"
             >
@@ -34,39 +34,39 @@ const Division5 = () => {
                     className="h-56 pt-20 rounded-2xl flex justify-end items-end overflow-visible relative"
                 >
                     <img
-                        src={`${publicUrl}/assets/img/blog/division/d5/D5 2.png`}
-                        alt="D5 Main Chart"
+                        src={`${publicUrl}/assets/img/blog/division/d12/D12.png`}
+                        alt="D12 Main Chart"
                         className="w-[350px] transform scale-[3.5] origin-bottom object-contain"
                     />
                 </div>
 
                 <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Rectangle 39.png`} alt="D5 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
+                        <img src={`${publicUrl}/assets/img/blog/division/d12/Frame 268.png`} alt="D12 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D5 – Panchamsa Chart and Why Does It Matter?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D12 – Dwadashamsa Chart and Why Does It Matter?</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                The D5 chart, or Panchamsa (பஞ்சம்ச சக்கரம்), is a key divisional chart in Vedic astrology for analyzing fame, creativity, recognition, and legacy. While the D1 chart may show general potential, D5 reveals the deeper layers—why some people stand out, achieve fame, or leave a lasting legacy. It's especially important for those in creative fields, leadership, or anyone seeking to understand their unique talents and blessings.
+                                The D12 chart, or Dwadashamsa (द्वादशांश), is a key divisional chart in Vedic astrology for analyzing parental lineage, inherited traits, and ancestral blessings or challenges. While the D1 chart shows general potential, D12 reveals the deeper roots—why some inherit family strengths, face ancestral karma, or receive blessings from their lineage. It's especially important for those interested in family legacy, parental influence, or understanding inherited patterns.
                             </p>
                         </div>
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D5 Calculated and What to Look For?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D12 Calculated and What to Look For?</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                Each zodiac sign is divided into 5 equal parts of 6°, creating 60 Panchamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your creative drive and personal radiance. The 5th house governs creativity, children, and recognition, while the Sun shows fame and leadership. Benefics in the 5th bring artistic blessings, while malefics may indicate struggles for recognition. For example, a strong Sun and 5th lord together point to natural talent and public success, while an afflicted 5th may reflect creative blocks or ego struggles.
+                                Each zodiac sign is divided into 12 equal parts of 2°30', creating 144 Dwadashamsas across the zodiac. The Lagna and Lagna Lord reflect inherited tendencies and family karma. The 4th house shows maternal legacy, the 9th house paternal blessings, and planets in D12 reveal ancestral gifts or challenges. For example, a strong 9th lord in D12 points to powerful paternal blessings, while afflictions may indicate ancestral struggles.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 307.png`} alt="D5 Supporting" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d12/Frame 387.png`} alt="D12 Supporting" className='md:w-1/2 w-full rounded-lg' />
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d5/Frame 320.png`} alt="D5 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d12/Frame 404.png`} alt="D12 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D5 Chart</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D12 Chart</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
-                                The D5 chart is an essential tool for artists, leaders, and anyone seeking recognition or to leave a mark. It helps predict success in creative fields, identify unique talents, and guide individuals toward fame or legacy. Whether you're planning a creative career or seeking insight into your personal blessings, the D5 chart reveals how well your soul is aligned with the path of creativity, recognition, and self-expression.
+                                The D12 chart is an essential tool for those seeking to understand family karma, ancestral blessings, and inherited patterns. It helps identify strengths and challenges passed down through generations, and guides individuals toward healing or harnessing their lineage. Whether you're exploring family roots or seeking insight into inherited gifts, the D12 chart reveals how your soul is connected to your ancestry.
                             </p>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const Division5 = () => {
                         ></iframe>
                     </div>
                 </div>
-                <h1 style={{ paddingBlock: "" }} className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Astrological remedies if you were not able to buy a house </h1>
+                <h1 style={{ paddingBlock: "" }} className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Astrological remedies for ancestral issues</h1>
                 <button
                     style={{ backgroundColor: "#E90000" }}
                     className="bg-[#E90000] border-4 border-white rounded-2xl px-20 py-3 lg:py-6 hover:text-red-500 text-white text-xl lg:text-4xl hover:text-red shadow-lg hover:bg-white  transition duration-300"
@@ -101,4 +101,4 @@ const Division5 = () => {
     );
 };
 
-export default Division5;
+export default Division12;
