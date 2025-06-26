@@ -1,3 +1,4 @@
+
 import React, { Component, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
@@ -37,11 +38,8 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
-
-import Division10 from './components/blog-components/Division10.jsx';
-import Division12 from './components/blog-components/Division12.jsx';
-import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
+import Division30 from './components/blog-components/Division30.jsx';
 
 
 import "./utils/i18n/i18n.js"
@@ -126,7 +124,7 @@ class Root extends Component {
 											<Route path="/divison2" component={Division2}/>
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
-											<Route path="/divison24" component={Division24}/>
+											<Route path="/division24" component={Division24}/>
 											<Route path="/divison30" component={Division30}/>
 
 	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
@@ -135,12 +133,8 @@ class Root extends Component {
 	                    <Route  path="/blog-components/Division2" component={Division2} />
 	                    <Route  path="/blog-components/Division3" component={Division3} />
 	                    <Route  path="/blog-components/Division5" component={Division5} />
-						<Route  path="/blog-components/Division10" component={Division10} />
-						<Route  path="/blog-components/Division12" component={Division12} />
-						<Route  path="/blog-components/Division16" component={Division16} />
 						<Route  path="/blog-components/Division24" component={Division24} />
 						<Route  path="/blog-components/Division30" component={Division30} />
-
 
 
 	                    <Route  path="*" component={Error} />
