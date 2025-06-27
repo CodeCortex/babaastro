@@ -6,7 +6,7 @@ const Division2 = () => {
     return (
         <div style={{ fontFamily: "'Poppins', sans-serif" }}>
             <div style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/blog/houseinastrology/image1.png)`,
+                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/blog/houseinastrology/image.png)`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center center',
@@ -30,49 +30,37 @@ const Division2 = () => {
                     margin: 0,
                     fontFamily: "'Poppins', sans-serif"
                 }}>
-                    Houses <br /> in Astrology
+                    Planet strength<br />
                 </h1>
             </div>
 
             <div
                 style={{
-                    background: "linear-gradient(to bottom,#A3CBFF )",
+                    background: "linear-gradient(to bottom, #B4EAFF)",
                     fontFamily: "'Poppins', sans-serif"
                 }}
-                className="w-full pt-20 pb-100 flex flex-col justify-center items-center"
+                className="w-full pt-20 pb-20 flex flex-col justify-center items-center"
             >
                 <h1 
-                    className="text-5xl mb-8 text-left text-red-900"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         textShadow: "2px 2px 4px rgba(0,0,0,0)",
                         lineHeight: "1.3",
                         fontWeight: 700
                     }}
                 >
-                    The 12 Houses in Vedic Astrology (Bhavas / பாவங்கள்)
+                    Planetary Strength in Astrology (Shadbala)
                 </h1>
 
-                <p className="mb-8 text-3xl leading-relaxed text-red-900 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                    In Vedic Astrology, the 12 Houses — known as Bhavas (பாவங்கள்) in Tamil — form the core of any birth chart (ஜாதகம்). Each house governs a specific area of life and unfolds the story of our spiritual and material journey.
+                <p className="mb-8 text-2xl leading-relaxed text-black px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
+                    In Vedic astrology, simply having a planet in a chart isn't enough. What truly matters is how strong or weak that planet is — because its strength determines the results it will deliver in your life.
                 </p>
 
-                <div>
-                    <img 
-                        src={publicUrl + "assets/img/blog/houseinastrology/image2.png"} 
-                        alt="Astrology Ascendant" 
-                        className="rounded-lg"
-                        style={{
-                            width: '1400px',
-                            height: 'auto',
-                            maxWidth: '100%'
-                        }}
-                    />
-                </div>
-                <br></br>
-                <br></br>
                 <h1 
-                    className="text-5xl mb-8 text-red-900 text-left"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         paddingLeft: "3rem",
                         paddingRight: "5rem",
                         lineHeight: "1.3",
@@ -82,32 +70,29 @@ const Division2 = () => {
                         fontWeight: 700
                     }}
                 >
-                    What Are the Houses?
-                </h1>
-
-                <br />
-
-                <img 
-                    src={publicUrl + "assets/img/blog//houseinastrology/image3.png"} 
-                    alt="Astrology Ascendant" 
-                    className="rounded-lg"
-                    style={{
-                        width: '1400px',
-                        height: 'auto',
-                        maxWidth: '100%'
-                    }}
-                />
-                <br></br>
-                <p className="mb-16 text-3xl leading-relaxed text-red-900 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                    Each house (பாவம்) begins from the Ascendant (Lagna / லக்னம்) and reflects a different domain of life — like career, marriage, money, health, and more. These houses not only shape our personality but also reveal our karmic patterns and life purpose.
+                    Why Planetary Strength (Bala) Matters
                     <br></br>
-                </p>
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
+                        <br></br>
+                        •A strong planet brings success in its domain<br></br>
+                        Example: Strong Venus = happy relationships, creativity, luxury.
+                        •A weak or afflicted planet may:<br></br>
+                        •Delay your goals.<br></br>
+                        •Cause struggles or blockages<br></br>
+                        •Produce opposite or twisted results<br></br>
+                    </p>
+                    <br></br>
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
+                        Planetary strength influences yogas, dashas (timing), and your overall life journey.
+                    </p>
+                </h1>
 
                 <br></br>
-
+                <br></br>
                 <h1 
-                    className="text-5xl mb-8 text-red-900 text-left"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         paddingLeft: "3rem",
                         paddingRight: "5rem",
                         lineHeight: "1.3",
@@ -117,12 +102,14 @@ const Division2 = () => {
                         fontWeight: 700
                     }}
                 >
-                    Overview of the 12 Houses
+                    The 6 Types of Planetary Strengths (Shadbala / ஷட்பல)
+                    <br></br>
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
+                        In Sanskrit, "Shadbala" means "Six Strengths." These six types offer a comprehensive way to assess how powerful a planet really is.
+                    </p>
                 </h1>
 
-                <br />
-
-                {/* Ascendants Table - Expanded Width */}
+                {/* Shadabala Types Table */}
                 <div className="mb-8">
                     <div className="overflow-x-auto my-4 mx-auto" style={{ width: '100%', maxWidth: '2000px' }}>
                         <table className="w-full table-auto border-2 border-black text-lg" style={{ minWidth: '1400px', fontFamily: "'Poppins', sans-serif" }}>
@@ -135,23 +122,17 @@ const Division2 = () => {
                             </thead>
                             <tbody className="bg-white">
                                 {[
-                                    ["1st", "லக்கன பாவம்", "Self, personality, body, health, beginnings"],
-                                    ["2nd", "தன பாவம்", "Money, speech, family, values, food"],
-                                    ["3rd", "சகோதர பாவம்", "Siblings, courage, communication, efforts"],
-                                    ["4th", "மாண்ச பாவம்", "Mother, home, comforts, vehicles, emotions"],
-                                    ["5th", "புத்திர பாவம்", "Children, education, intelligence, romance"],
-                                    ["6th", "ஷட்ரு பாவம்", "Enemies, debts, diseases, obstacles"],
-                                    ["7th", "கலத்ர பாவம்", "Marriage, spouse, business partnerships"],
-                                    ["8th", "அஷ்டம பாவம்", "Longevity, secrets, transformation, inheritance"],
-                                    ["9th", "பாக்ய பாவம்", "Luck, dharma, father, higher learning"],
-                                    ["10th", "கர்ம பாவம்", "Career, reputation, status, public life"],
-                                    ["11th", "லாப பாவம்", "Gains, income, friends, desires, success"],
-                                    ["12th", "விருக்தி பாவம்", "Losses, moksha, foreign lands, sleep, expenses"]
-                                ].map(([house, tamil, meaning], index) => (
+                                    ["1. Sthana Bala", "ஸ்தான பலம்", "Positional strength (Exaltation, Own Sign, etc.)"],
+                                    ["2. Dik Bala", "திசை பலம்", "Directional strength — planets strong in certain houses"],
+                                    ["3. Kala Bala", "கால பலம்", "Time-based strength — depends on day/night, age, etc."],
+                                    ["4. Chesta Bala", "சாஞ்ச பலம்", "Motion-related — whether direct or retrograde"],
+                                    ["5. Naisargika Bala", "இயற்கை பலம்", "Natural strength — based on the planet's nature"],
+                                    ["6. Drik Bala", "திரிக பலம்", "Aspect strength — positive or negative planetary aspects"]
+                                ].map(([type, tamil, meaning], index) => (
                                     <tr key={index} className="border-b border-black even:bg-gray-100">
-                                        <td className="px-4 py-3 border-r border-black text-center" style={{ fontWeight: 400 }}>{house}</td>
-                                        <td className="px-4 py-3 border-r border-black text-center" style={{ fontWeight: 400 }}>{tamil}</td>
-                                        <td className="px-4 py-3 text-center" style={{ fontWeight: 400 }}>{meaning}</td>
+                                        <td className="px-4 py-3 border-r border-black" style={{ fontWeight: 400 }}>{type}</td>
+                                        <td className="px-4 py-3 border-r border-black" style={{ fontWeight: 400 }}>{tamil}</td>
+                                        <td className="px-4 py-3 text-left" style={{ fontWeight: 400 }}>{meaning}</td>
                                     </tr>
                                 ))}
                             </tbody>
@@ -159,11 +140,10 @@ const Division2 = () => {
                     </div>
                 </div>
 
-                <br></br>
-
                 <h1 
-                    className="text-5xl mb-8 text-red-900 text-left"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         paddingLeft: "3rem",
                         paddingRight: "5rem",
                         lineHeight: "1.3",
@@ -173,7 +153,27 @@ const Division2 = () => {
                         fontWeight: 700
                     }}
                 >
-                    How to Interpret the Houses
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
+                        All these combine into a Shadbala Score. A planet with a score ≥ 1.0 Rupas is considered strong.
+                    </p>
+                </h1>
+
+                <br></br>
+
+                <h1 
+                    className="text-5xl mb-8 text-left"
+                    style={{
+                        color: "#005070",
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    General Rules for Planetary Strength
                 </h1>
 
                 <div className="overflow-x-auto my-8 mx-auto" style={{ width: '100%', maxWidth: '1400px' }}>
@@ -184,16 +184,20 @@ const Division2 = () => {
                         </colgroup>
                         <thead className="bg-white">
                             <tr className="border-b-2 border-black">
-                                <th className="px-6 py-4 border-r border-black text-center text-lg" style={{ borderRight: '2px solid black', fontWeight: 700 }}>Element</th>
-                                <th className="px-6 py-4 text-center text-lg" style={{ fontWeight: 700 }}>Explanation</th>
+                                <th className="px-6 py-4 border-r border-black text-center text-lg" style={{ borderRight: '2px solid black', fontWeight: 700 }}> condition</th>
+                                <th className="px-6 py-4 text-center text-lg" style={{ fontWeight: 700 }}>  Effect</th>
                             </tr>
                         </thead>
                         <tbody className="bg-white">
                             {[
-                                ["House Lord", "The planet ruling the zodiac sign in that house"],
-                                ["House Occupants", "Planets sitting in the house (they influence its results)"],
-                                ["Aspects (Drishti)", "Planets that cast their aspect on the house (can enhance or challenge it)"],
-                                ["Karaka (Significator)", "Natural planet associated with the house's theme (e.g., Venus for 7th)"]
+                                ["Exalted (உச்சம்)", "Very strong"],
+                                ["Own Sign (ஸ்வக்ஷேத்ரத்தில்)", "Strong"],
+                                ["Friendly Sign", "Moderately strong"],
+                                ["Debilitated (நீசம்)", "Very weak"],
+                                ["Combust (தீக்கிழியும் நிலை)", "Weak (close to Sun)"],
+                                ["Retrograde (வக்கிரம்)", "Can enhance or distort strength"],
+                                ["In Enemy Sign", "Weak"],
+                                ["In Dushtana (6, 8, 12)", "Challenged, limited results"]
                             ].map(([element, explanation], index) => (
                                 <tr key={index} className="border-b border-black even:bg-gray-50">
                                     <td className="px-6 py-4 text-center" style={{ borderRight: '2px solid black', fontWeight: 400 }}>{element}</td>
@@ -207,8 +211,9 @@ const Division2 = () => {
                 <br></br>
 
                 <h1 
-                    className="text-5xl mb-8 text-red-900 text-left"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         paddingLeft: "3rem",
                         paddingRight: "5rem",
                         lineHeight: "1.3",
@@ -218,19 +223,22 @@ const Division2 = () => {
                         fontWeight: 700
                     }}
                 >
-                    Spiritual Insight
+                    Real-Life Examples
                     <br></br>
-                    <p className="text-2xl text-red-900" style={{ fontWeight: 400 }}>
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
                         <br></br>
-                        Each house is a stage in your soul's journey — from birth (1st) to liberation (12th).
+                        • <strong>Moon in Taurus =</strong> Exalted → Emotionally stable and secure.<br></br>
+                        • <strong>Venus in Virgo =</strong> Debilitated → Struggles in love, self-worth<br></br>
+                        • <strong>Mars in 10th House =</strong> Directional strength → Excellent for career and leadership<br></br>
                     </p>
                 </h1>
 
                 <br />
 
                 <h1 
-                    className="text-5xl mb-8 text-red-900 text-left"
+                    className="text-5xl mb-8 text-left"
                     style={{
+                        color: "#005070",
                         paddingLeft: "3rem",
                         paddingRight: "5rem",
                         lineHeight: "1.3",
@@ -240,13 +248,36 @@ const Division2 = () => {
                         fontWeight: 700
                     }}
                 >
-                    Bonus Tips for Beginners
+                    How to Use This in Chart Reading
                     <br></br>
-                    <p className="text-2xl text-red-900" style={{ fontWeight: 400 }}>
+                    <p className="text-2xl text-black" style={{ fontWeight: 400 }}>
                         <br></br>
-                        The Kendra houses (1, 4, 7, 10) are power centers.<br></br>
-                        Trikona houses (1, 5, 9) are most auspicious (Dharma).<br></br>
-                        Dusthana houses (6, 8, 12) show challenges — but also great spiritual potential.
+                        1. <strong>Check Rasi (Sign) strength – </strong>Is it exalted, own sign, or debilitated?<br></br>
+                        2.<strong>Note planetary aspects – </strong> Who's influencing it? Benefics or malefics?<br></br>
+                        3. <strong>Use Shadbala - </strong>For deeper insights (available in advanced tools)<br></br>
+                        4. <strong>Time Matters - </strong>Even a strong planet won't help if its Dasha isn't active<br></br>
+                    </p>
+                </h1>
+
+                <br />
+
+                <h1 
+                    className="text-5xl mb-8 text-left"
+                    style={{
+                        color: "#005070",
+                        paddingLeft: "3rem",
+                        paddingRight: "5rem",
+                        lineHeight: "1.3",
+                        marginRight: "0rem",
+                        marginLeft: "0",
+                        width: "calc(100% - 2rem)",
+                        fontWeight: 700
+                    }}
+                >
+                    Bonus Tip:
+                    <br></br>
+                    <p className="text-4xl" style={{ color: '#C84346', fontWeight: 400 }}>
+                        A weak planet can become strong through remedies, devotion, and time (dasha). Nothing is fixed forever.
                     </p>
                 </h1>
 

@@ -139,7 +139,8 @@ class Root extends Component {
 
 							{/* Divisional Chart Routes */}
 							<Route path="/division_chart" component={DivisionalChartsPage} />
-							<Route path="/division" component={Division1} />
+							<Route path="/division" component={DivisionalChartsPage} />
+							<Route path="/division1" component={Division1} />
 							<Route path="/division2" component={Division2} />
 							<Route path="/division3" component={Division3} />
 							<Route path="/division5" component={Division5} />
@@ -159,7 +160,8 @@ class Root extends Component {
 							<Route path="/blog-components/Division12" component={Division12} />
 							<Route path="/blog-components/Division16" component={Division16} />
 							<Route path="/blog-components/Division24" component={Division24} />
-							<Route path="/divison" component={Division1} />
+							<Route path="/divison" component={DivisionalChartsPage} />
+							<Route path="/divison1" component={Division1} />
 							<Route path="/divison2" component={Division2} />
 							<Route path="/divison3" component={Division3} />
 							<Route path="/divison4" component={Division4} />

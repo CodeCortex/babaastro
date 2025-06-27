@@ -154,7 +154,16 @@ const Division1 = () => {
 
 
                 </div>
-                <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20'>Click for video</h1>
+                <div
+                    style={{ width: "84vw", maxWidth: "1100px", margin: "32px auto 0 auto" }}
+                >
+                    <h1
+                        className="text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20"
+                        style={{ textAlign: "left", marginBottom: "8px" }}
+                    >
+                        Click for video
+                    </h1>
+                </div>
 
                 <div>
                     <div className='' style={{ height: '80vh', width: "90vw" }}>
