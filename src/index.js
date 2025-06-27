@@ -68,6 +68,8 @@ import Ascendantsinastrology from './components/blog-components/Ascendantsinastr
 import HouseInAstrology from './components/blog-components/HouseInAstrology.jsx';
 import KundaliMatching from './components/blog-components/KundaliMatching.jsx';
 import Muhurtha from './components/blog-components/Muhurtha.jsx';
+ 
+import Construction from './components/construction';
 
 
 
@@ -162,6 +164,7 @@ class Root extends Component {
 											<Route path="/divison6" component={Division6}/>
 											<Route path="/divison7" component={Division7}/>
 											<Route path="/divison9" component={Division9}/>
+											<Route path="/construction" component={Construction}/>
 
 
 									
