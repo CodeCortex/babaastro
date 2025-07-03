@@ -1,3 +1,4 @@
+ feature/blogupdate2
 import React from 'react';
 
 const Division2 = () => {
@@ -223,172 +224,188 @@ const Division2 = () => {
                                 ))}
                             </tbody>
                         </table>
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Sidebar from './sidebar';
+class Ascendantsinastrology extends Component {
+    render() {
+        let publicUrl = process.env.PUBLIC_URL + '/'
+        let imagealt = 'image'
+
+        return (
+            <div className="blog-page-area  pd-bottom-80 go-top">
+                <div className="container ">
+                    <div className="row">
+                        <div className="col-lg-8 pd-top-50 Boxash" >
+                            <div className="blog-details-page-inner">
+                                <div className="single-blog-inner m-0">
+                                    <div className="single-post-wrap style-overlay">
+                                        <div className="thumb">
+                                            <img src={publicUrl + "assets/img/blog/starss.png"} alt="img" />
+                                        </div>
+                                        <div className="details pb-4">
+                                            <div className="post-meta-single mb-2">
+                                                <ul>
+                                                    <li><p><i className="fa fa-clock-o" />28 March 2025</p></li>
+                                                </ul>
+                                            </div>
+                                            <h5 className="title mt-0">Stars In Astrology</h5>
+                                        </div>
+                                    </div>
+                                    <div className="single-blog-details">
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                                    <div class="px-6 py-10 bg-white text-gray-800">
+                                        {/* <!-- Section Heading --> */}
+                                        <h1 class="text-3xl font-bold text-purple-700 mb-6">🌅 Ascendants in Astrology (Lagna / லக்னம்)</h1>
+                                        <p class="mb-6 text-lg">The <strong>Ascendant</strong> or <strong>Lagna</strong> is the zodiac sign rising on the eastern horizon at the time of your birth. It sets the tone of your horoscope and plays a vital role in shaping your personality and life direction.</p>
+
+                                        {/* <!-- What is Ascendant --> */}
+                                        <div class="bg-purple-50 border-l-4 border-purple-400 p-5 rounded mb-8">
+                                            <h2 class="text-2xl font-semibold mb-2">🧭 What is an Ascendant (Lagna)?</h2>
+                                            <ul class="list-disc pl-5 text-base">
+                                                <li><strong>Tamil:</strong> லக்னம்</li>
+                                                <li><strong>Sanskrit:</strong> लग्न (Lagna)</li>
+                                                <li><strong>English:</strong> Ascendant / Rising Sign</li>
+                                                <li>Begins your <strong>1st house</strong> and defines the layout of your birth chart</li>
+                                                <li>Changes every ~2 hours, so accurate <strong>birth time</strong> is essential</li>
+                                            </ul>
+                                        </div>
+
+                                        {/* <!-- Why Important --> */}
+                                        <div class="mb-8">
+                                            <h2 class="text-2xl font-semibold text-purple-700 mb-4">🧬 Why is the Ascendant So Important?</h2>
+                                            <div class="overflow-x-auto">
+                                                <table class="w-full text-left table-auto border border-gray-300">
+                                                    <thead class="bg-purple-100">
+                                                        <tr>
+                                                            <th class="px-4 py-2">🔹 Element</th>
+                                                            <th class="px-4 py-2">🔍 Represents</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="even:bg-gray-50">
+                                                            <td class="px-4 py-2 font-medium">🧍 Lagna (1st House)</td>
+                                                            <td class="px-4 py-2">Personality, body, behavior, mindset</td>
+                                                        </tr>
+                                                        <tr class="even:bg-gray-50">
+                                                            <td class="px-4 py-2 font-medium">🧭 Chart Foundation</td>
+                                                            <td class="px-4 py-2">Sets signs for all 12 houses</td>
+                                                        </tr>
+                                                        <tr class="even:bg-gray-50">
+                                                            <td class="px-4 py-2 font-medium">🌟 Planetary Strength</td>
+                                                            <td class="px-4 py-2">Defines benefic/malefic planet roles</td>
+                                                        </tr>
+                                                        <tr class="even:bg-gray-50">
+                                                            <td class="px-4 py-2 font-medium">🎯 Life Direction</td>
+                                                            <td class="px-4 py-2">Soul’s intent and life path</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        {/* <!-- Ascendants Table --> */}
+                                        <div class="mb-8">
+                                            <h2 class="text-2xl font-semibold text-purple-700 mb-4">🔟 12 Ascendants and Their Traits (with Tamil Names)</h2>
+                                            <div class="overflow-x-auto">
+                                                <table class="w-full table-auto text-left border border-gray-300">
+                                                    <thead class="bg-purple-100">
+                                                        <tr>
+                                                            <th class="px-4 py-2">♈ Ascendant</th>
+                                                            <th class="px-4 py-2">Tamil Name</th>
+                                                            <th class="px-4 py-2">Personality Style</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Aries</td><td class="px-4 py-2">மேஷ லக்னம்</td><td class="px-4 py-2">Bold, energetic, direct</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Taurus</td><td class="px-4 py-2">ரிஷப லக்னம்</td><td class="px-4 py-2">Calm, comfort-loving</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Gemini</td><td class="px-4 py-2">மிதுன லக்னம்</td><td class="px-4 py-2">Witty, curious, smart</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Cancer</td><td class="px-4 py-2">கடக லக்னம்</td><td class="px-4 py-2">Emotional, nurturing</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Leo</td><td class="px-4 py-2">சிம்ம லக்னம்</td><td class="px-4 py-2">Confident, proud leader</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Virgo</td><td class="px-4 py-2">கன்னி லக்னம்</td><td class="px-4 py-2">Analytical, precise</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Libra</td><td class="px-4 py-2">துலாம் லக்னம்</td><td class="px-4 py-2">Balanced, charming</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Scorpio</td><td class="px-4 py-2">விருச்சிக லக்னம்</td><td class="px-4 py-2">Intense, secretive</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Sagittarius</td><td class="px-4 py-2">தனுசு லக்னம்</td><td class="px-4 py-2">Optimistic, wise</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Capricorn</td><td class="px-4 py-2">மகரம் லக்னம்</td><td class="px-4 py-2">Ambitious, serious</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Aquarius</td><td class="px-4 py-2">கும்ப லக்னம்</td><td class="px-4 py-2">Innovative, social</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Pisces</td><td class="px-4 py-2">மீன லக்னம்</td><td class="px-4 py-2">Spiritual, artistic</td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        {/* <!-- Lagna Lord --> */}
+                                        <div class="bg-purple-50 border-l-4 border-purple-400 p-5 rounded mb-8">
+                                            <h2 class="text-2xl font-semibold mb-3">🧘‍♀️ Lagna Lords Matter Too!</h2>
+                                            <p class="mb-3">Each Ascendant is ruled by a planet, called the <strong>Lagna Lord</strong>. It influences your:</p>
+                                            <ul class="list-disc pl-6 text-base space-y-1">
+                                                <li>Core personality traits</li>
+                                                <li>Life's key themes</li>
+                                                <li>Health patterns</li>
+                                                <li>Career and relationship tone</li>
+                                            </ul>
+                                            <div class="mt-4">
+                                                <p><strong>Example:</strong></p>
+                                                <ul class="list-disc pl-6">
+                                                    <li>Aries Lagna → Mars is Lagna Lord → Bold & action-driven</li>
+                                                    <li>Libra Lagna → Venus is Lagna Lord → Artistic, relationship-oriented</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        {/* <!-- Special Lagna Concepts --> */}
+                                        <div class="mb-8">
+                                            <h2 class="text-2xl font-semibold text-purple-700 mb-4">🌟 Special Lagna Concepts</h2>
+                                            <div class="overflow-x-auto">
+                                                <table class="w-full text-left table-auto border border-gray-300">
+                                                    <thead class="bg-purple-100">
+                                                        <tr>
+                                                            <th class="px-4 py-2">Term</th>
+                                                            <th class="px-4 py-2">Meaning</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Chandra Lagna</td><td class="px-4 py-2">Moon is the reference Lagna → mind-focused</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Surya Lagna</td><td class="px-4 py-2">Sun as Lagna → from ego/self identity</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Arudha Lagna</td><td class="px-4 py-2">How others see you</td></tr>
+                                                        <tr class="even:bg-gray-50"><td class="px-4 py-2">Karakamsha Lagna</td><td class="px-4 py-2">Jaimini Lagna → reveals soul's dharma</td></tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <Sidebar />
+main
                     </div>
-                </div>
-
-                <h1 
-                    className="text-5xl mb-8 text-black text-left"
-                    style={{
-                        paddingLeft: "3rem",
-                        paddingRight: "5rem",
-                        lineHeight: "1.3",
-                        marginRight: "0rem",
-                        marginLeft: "0",
-                        width: "calc(100% - 2rem)",
-                        fontWeight: 700,
-                    }}
-                >
-                    Lagna Lords: The Planet That Rules You
-                </h1>
-
-                <p className="mb-8 text-xl leading-relaxed text-gray-800 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                    Each Ascendant has a ruling planet, called the Lagna Lord. This planet colors your personality, sets life themes, and impacts your health, relationships, and career path
-                    <br></br>
-                    <br></br>
-                    <p className="mb-6">
-                        <strong className="text-2xl text-black" style={{ fontWeight: 700 }}>Examples:</strong>
-                    </p>
-                    <p className="mb-8 text-xl leading-relaxed text-gray-800 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                        • Aries Lagna → Mars is Lagna Lord → Bold, action-oriented, fiery
-                        <br></br>
-                    </p>
-                    <p className="mb-8 text-xl leading-relaxed text-gray-800 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                        • Libra Lagna → Venus is Lagna Lord → Values love, beauty, and harmony
-                        <br></br>
-                    </p>
-                </p>
-
-                <h1 
-                    className="text-5xl mb-8 text-black text-left"
-                    style={{
-                        paddingLeft: "3rem",
-                        paddingRight: "5rem",
-                        lineHeight: "1.3",
-                        marginRight: "0rem",
-                        marginLeft: "0",
-                        width: "calc(100% - 2rem)",
-                        fontWeight: 700,
-                    }}
-                >
-                    Special Lagna Concepts to Know
-                </h1>
-
-                <div className="overflow-x-auto my-8 mx-auto" style={{ width: '100%', maxWidth: '1400px', fontFamily: "'Poppins', sans-serif" }}>
-                    <table className="w-full table-auto border-2 border-black text-lg">
-                        <thead className="bg-white">
-                            <tr className="border-b-2 border-black">
-                                <th className="px-6 py-4 border-r border-black text-xl text-center" style={{ fontWeight: 700 }}>Term</th>
-                                <th className="px-6 py-4 text-xl text-center" style={{ fontWeight: 700 }}> What It Means</th>
-                            </tr>
-                        </thead>
-                        <tbody className="bg-white">
-                            <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>Chandra Lagna Moon as the Ascendant</td>
-                                <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>focuses on the emotional self</td>
-                            </tr>
-                            <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>Surya Lagna  Sun as the Ascendant</td>
-                                <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>reflects outward personality</td>
-                            </tr>
-                            <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>Karakamsha Lagna</td>
-                                <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Used in Jaimini astrology for soul's purpose</td>
-                            </tr>
-                            <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>Arudha Lagna</td>
-                                <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Represents your perceived personality by others</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <h1 
-                    className="text-5xl mb-8 text-black text-left"
-                    style={{
-                        paddingLeft: "3rem",
-                        paddingRight: "5rem",
-                        lineHeight: "1.3",
-                        marginRight: "0rem",
-                        marginLeft: "0",
-                        width: "calc(100% - 2rem)",
-                        fontWeight: 700,
-                    }}
-                >
-                    Final Thoughts 
-                </h1>
-                
-                <p className="mb-8 text-2xl leading-relaxed text-gray-800 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                    Your Ascendant is you — the face you show the world, the way you carry yourself, and how you begin everything in life. While your Sun sign shows your core essence, and your Moon sign reveals your emotions, your Lagna is how your entire life plays out
-                    <br></br>
-                </p>
-                
-                <p className="mb-8 text-2xl leading-relaxed text-gray-800 px-8 md:px-12 lg:px-16 text-justify" style={{ fontWeight: 400 }}>
-                    Tip: Always consult a Vedic astrologer or use accurate birth chart software to find your exact Lagna, especially since it changes every 2 hours!
-                    <br></br>
-                </p>
-
-                <h1 
-                    className="mb-8 text-left"
-                    style={{
-                        fontSize: "50px",
-                        paddingLeft: "3rem",
-                        paddingRight: "5rem",
-                        lineHeight: "1.3",
-                        marginRight: "0rem",
-                        marginLeft: "0",
-                        width: "calc(100% - 2rem)",
-                        fontWeight: 700,
-                    }}
-                >
-                    Click for video
-                </h1>
-                
-                <div>
-                    <div className='' style={{ height: '80vh', width: "90vw" }}>
-                        <iframe
-                            width="100%"
-                            height="100%"
-                            src="https://www.youtube.com/embed/SKeF4Ymwt1Y?autoplay=1&mute=1&rel=0&showinfo=0"
-                            title="YouTube video"
-                            allow="autoplay; encrypted-media"
-                            allowFullScreen
-                            className=''
-                            style={{ borderRadius: '12px' }}
-                        ></iframe>
-                    </div>
-                </div>
-                
-                <div className="w-full text-center">
-                    <div className="w-full text-center">
-                        <h1 className='text-black text-xl lg:text-4xl py-8 lg:py-16 mx-auto' style={{ fontWeight: 700 }}>
-                            Astrological remedies if you were not able to buy a house
-                        </h1>
-                    </div>
-                </div>
-                
-                <div className="flex flex-col items-center space-y-8">
-                    <button
-                        style={{ backgroundColor: "#E90000", fontWeight: 400 }}
-                        className="w-full max-w-[200px] border-4 border-white px-4 py-2 lg:py-4 hover:text-red-500 text-white text-lg lg:text-3xl shadow-lg hover:bg-white transition duration-300"
-                    >
-                        Check Now
-                    </button>
-
-                    <h1 className="text-black text-xl lg:text-4xl py-8 lg:py-16 mx-auto text-center" style={{ fontWeight: 700 }}>
-                        Ask a question talk to the best astrologer
-                    </h1>
-
-                    <button
-                        onClick={() => window.open("https://wa.me/+919508801096", "_blank")}
-                        style={{ background: "#00980A", fontWeight: 400 }}
-                        className="w-full max-w-[200px] border-4 border-white px-4 py-2 lg:py-4 hover:text-white text-white text-lg lg:text-3xl shadow-lg hover:bg-white transition duration-300"
-                    >
-                        Chat on WhatsApp
-                    </button>
                 </div>
             </div>
-        </div>
-    );
-};
 
-export default Division2;
+        )
+    }
+}
+
+export default Ascendantsinastrology;

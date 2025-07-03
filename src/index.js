@@ -1,3 +1,4 @@
+
 import React, { Component, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
@@ -37,11 +38,8 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
-
-import Division10 from './components/blog-components/Division10.jsx';
-import Division12 from './components/blog-components/Division12.jsx';
-import Division16 from './components/blog-components/Division16.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
+ feature/blogupdate2
 
 import Division6 from './components/blog-components/Division6.jsx';
 import Division7 from './components/blog-components/Division7.jsx';
@@ -49,6 +47,10 @@ import Division9 from './components/blog-components/Division9.jsx';
 import planetstrength from './components/blog-components/planetstrength.jsx';
 import vedicastrology from './components/blog-components/vedicastrology.jsx';
 import astrologyroadmap from './components/blog-components/astrologyroadmap.jsx';
+
+import Division30 from './components/blog-components/Division30.jsx';
+import Division60 from './components/blog-components/Division60.jsx';
+ main
 
 import "./utils/i18n/i18n.js"
 import LizardAstrology from './components/lizardastrology.js';
@@ -128,6 +130,7 @@ class Root extends Component {
 											<Route path="/houseinastrology" component={HouseInAstrology}/>
 											<Route path="/kundalimatching" component={KundaliMatching}/>
 											<Route path="/muhurtha" component={Muhurtha}/>
+feature/blogupdate2
                                             <Route path="/planetstrength" component={planetstrength}/>
                                             <Route path="/vedicastrology" component={vedicastrology}/>
                                             <Route path="/astrologyroadmap" component={astrologyroadmap}/>
@@ -140,9 +143,15 @@ class Root extends Component {
 											<Route path="/division10" component={Division10}/>
 											<Route path="/division12" component={Division12}/>
 											<Route path="/division16" component={Division16}/>
+
+											<Route path="/divison" component={Divison}/>
+											<Route path="/divison2" component={Division2}/>
+											<Route path="/divison3" component={Division3}/>
+											<Route path="/divison5" component={Division5}/>
+ main
 											<Route path="/division24" component={Division24}/>
-
-
+											<Route path="/divison30" component={Division30}/>
+											<Route path="/divison60" component={Division60}/>
 
 	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
 	                    <Route  path="/blog-components/Planetsinastrology" component={Planetinastrology} />
@@ -150,25 +159,12 @@ class Root extends Component {
 	                    <Route  path="/blog-components/Division2" component={Division2} />
 	                    <Route  path="/blog-components/Division3" component={Division3} />
 	                    <Route  path="/blog-components/Division5" component={Division5} />
-						<Route  path="/blog-components/Division10" component={Division10} />
-						<Route  path="/blog-components/Division12" component={Division12} />
-						<Route  path="/blog-components/Division16" component={Division16} />
 						<Route  path="/blog-components/Division24" component={Division24} />
-						
-
-											<Route path="/divison" component={Divison}/>
-											<Route path="/divison2" component={Division2}/>
-											<Route path="/divison3" component={Division3}/>
-											<Route path="/divison5" component={Division5}/>
-											<Route path="/divison6" component={Division6}/>
-											<Route path="/divison7" component={Division7}/>
-											<Route path="/divison9" component={Division9}/>
+						<Route  path="/blog-components/Division30" component={Division30} />
+						<Route  path="/blog-components/Division60" component={Division60} />
 
 
-									
-
-
-											
+	                    <Route  path="*" component={Error} />
 
 
 

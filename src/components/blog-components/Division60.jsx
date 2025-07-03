@@ -27,13 +27,13 @@ const Division2 = () => {
                     }}
                     className="text-white font-extrabold"
                 >
-                    D24
+                    D60
                 </h1>
             </div>
 
             <div
                 style={{
-                    background: "linear-gradient(to bottom, #D45100 0%, #4D1F03 70%)"
+                    background: "linear-gradient(to bottom, #00D47F 0%, #003721 70%)"
                 }}
                 className="w-full pt-10 pb-10 flex flex-col justify-center items-center"
             >
@@ -49,40 +49,52 @@ const Division2 = () => {
                 </div>
 
                 <div style={{ backgroundColor: "white", width: "95vw", maxWidth: "1200px" }} className='mt-8 p-4 sm:p-10 rounded-xl'>
-                    <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_page-0001.png`} alt="" className="md:w-1/2 w-full rounded-lg object-cover scale-100" />
+                    <div className='w-full flex md:flex-row flex-col items-start mt-5 pb-8 gap-6'>
+                        <img src={`${publicUrl}/assets/img/blog/division/D60_001.jpg`} alt="" className="md:w-1/2 w-full rounded-lg object-cover scale-100" />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D24 – Siddhamsa Chart and Why Does It Matter?</p>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D60 – Shashtiamsa Chart and Why Is It So Supreme?</p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
-                                The D24 chart, or Siddhamsa (சித்தம்ச சக்கரம்), is the key divisional chart in Vedic astrology for analyzing education, intelligence, learning style, and spiritual wisdom. While the D1 chart may show academic potential on the surface, D24 reveals the deeper layers—why some students excel easily while others struggle despite effort. It's especially important for those pursuing higher studies, scriptural learning, or careers in teaching and research. For spiritual seekers, the D24 also indicates one’s karmic connection to sacred knowledge and the ability to act as a vessel for wisdom.
+                                The D60 chart, or Shashtiamsa (ஷஷ்டியம்ச சக்கரம்), is the most subtle, spiritual, and karmically significant chart in all of Vedic astrology. It reveals the deepest past-life karma, unresolved debts, soul contracts, and hidden forces that shape your current life experiences. Often called the “soul’s blueprint,” the D60 explains why certain events occur even when there’s no logical indication in the D1 chart. It gives astrologers the final verdict on planetary strength and the true source of recurring struggles or blessings. However, it’s incredibly time-sensitive—even a one-minute error in birth time can drastically alter the chart.
                             </p>
                         </div>
                     </div>
 
-                    <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
-                        <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>How is D24 Calculated and What to Look For?</p>
+                    <div className='w-full flex md:flex-row flex-col items-start mt-0  gap-6'>
+
+                        <img src={`${publicUrl}/assets/img/blog/division/D60_table1.jpg`} alt="" className='w-full rounded-lg object-cover mt-4 md:mt-0' />
+                    </div>
+
+
+
+                    <div className='w-full flex md:flex-row flex-col items-start mt-0 pb-8 gap-6'>
+                        <div className='w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
+                            <p className='text-2xl font-bold mt-0' style={{ color: "#5D0000" }}>How is D60 Calculated and What to Look For?</p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
                                 Each zodiac sign is divided into 24 equal parts of 1°15′, creating 288 Siddhamsas across the zodiac. In this chart, the Lagna and Lagna Lord reflect your learning approach and mental strength. The 4th house governs foundational education and memory, while the 9th house shows higher learning, divine guidance, and philosophical depth. Mercury is vital for intellectual clarity and expression, Jupiter for wisdom and spiritual learning, and Saturn for discipline—or delays if afflicted. For example, strong Mercury and Jupiter together point to natural teaching ability, while an afflicted 4th house might reflect early learning blocks or distractions.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_whatsapp.jpg`} alt="" className='md:w-1/2 w-full rounded-lg object-cover mt-4 md:mt-0' />
                     </div>
 
-                    <div className='w-full flex md:flex-row flex-col items-start mt-10 pb-8 gap-6'>
-                        <img src={`${publicUrl}/assets/img/blog/division/D24_page-3.jpg`} alt="" className='md:w-1/2 w-full rounded-lg object-cover scale-100' />
-                        <div className='md:w-1/2 w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
-                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D24 Chart</p>
+
+                    <div className='w-full flex md:flex-row flex-col items-start mt-0 pb-8 gap-6'>
+
+                        <img src={`${publicUrl}/assets/img/blog/division/D60_table2.png`} alt="" className='w-full rounded-lg object-cover mt-4 md:mt-0' />
+                    </div>
+
+                    <div className='w-full flex md:flex-row flex-col items-start mt-0 pb-8 gap-6'>
+                        <div className='w-full flex flex-col justify-center px-0 md:px-6 gap-3'>
+                            <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D60 Chart</p>
                             <p className='text-black font-medium text-lg md:text-2xl' style={{ lineHeight: 1.5 }}>
-                                The D24 chart is an essential tool for students, scholars, and anyone on a learning path—academic or spiritual. It helps predict success in education, identify the right stream of study, and even guide aspirants toward teaching or guru roles. It also explains why certain individuals struggle in formal education yet thrive in self-taught spiritual or intuitive learning paths. Whether you’re planning your academic future or seeking insight into your deeper wisdom channels, the D24 chart reveals how well your soul is aligned with the path of knowledge, discipline, and inner enlightenment.
+                               The D60 chart is invaluable for understanding life patterns that don’t make sense in your main chart (D1). It confirms the true strength of yogas and doshas, especially when evaluating planetary dignity, Neecha Bhanga Raj Yoga, or spiritual blocks. It’s also used for deep remedial suggestions like ancestral healing, mantra sadhana, fasting, and pilgrimages. Above all, the D60 gives you a glimpse of your soul’s journey toward moksha—revealing the blessings you’ve earned, the debts you must clear, and the mission your spirit carries. In spiritual astrology, this chart isn’t just predictive—it’s transformative.
                             </p>
                         </div>
                     </div>
+
                 </div>
 
                 <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20 text-center'>Click for video</h1>
 
-                <div className="w-[95vw] max-w-6xl" style={{ height: '50vh', width: `90vh`, minHeight: 250, minWidth:100 }}>
+                <div className="w-[95vw] max-w-6xl" style={{ height: '50vh', width: `90vh`, minHeight: 250, minWidth: 100 }}>
                     <iframe
                         width="100%"
                         height="100%"
