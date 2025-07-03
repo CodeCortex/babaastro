@@ -148,25 +148,25 @@ const Division2 = () => {
                     <table className="w-full table-auto border-2 border-black text-lg">
                         <thead className="bg-white">
                             <tr className="border-b-2 border-black">
-                                <th className="px-6 py-4 border-r border-black text-xl text-center" style={{ fontWeight: 700 }}>🔹 Element</th>
-                                <th className="px-6 py-4 text-xl text-center" style={{ fontWeight: 700 }}>🔍 Represents</th>
+                                <th className="px-6 py-4 border-r border-black text-xl text-center" style={{ fontWeight: 700 }}> Element</th>
+                                <th className="px-6 py-4 text-xl text-center" style={{ fontWeight: 700 }}> Represents</th>
                             </tr>
                         </thead>
                         <tbody className="bg-white">
                             <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>🧍 Lagna (1st House)</td>
+                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}> Lagna (1st House)</td>
                                 <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Personality, body, behavior, mindset</td>
                             </tr>
                             <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>🧭 Chart Foundation</td>
+                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}> Chart Foundation</td>
                                 <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Sets signs for all 12 houses</td>
                             </tr>
                             <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>🌟 Planetary Strength</td>
+                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}> Planetary Strength</td>
                                 <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Defines benefic/malefic planet roles</td>
                             </tr>
                             <tr className="border-b border-black even:bg-gray-50">
-                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}>🎯 Life Direction</td>
+                                <td className="px-6 py-4 border-r border-black text-center" style={{ fontWeight: 400 }}> Life Direction</td>
                                 <td className="px-6 py-4 text-center" style={{ fontWeight: 400 }}>Soul's intent and life path</td>
                             </tr>
                         </tbody>

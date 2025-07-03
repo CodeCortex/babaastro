@@ -47,8 +47,8 @@ import Division6 from './components/blog-components/Division6.jsx';
 import Division7 from './components/blog-components/Division7.jsx';
 import Division9 from './components/blog-components/Division9.jsx';
 import planetstrength from './components/blog-components/planetstrength.jsx';
-
-
+import vedicastrology from './components/blog-components/vedicastrology.jsx';
+import astrologyroadmap from './components/blog-components/astrologyroadmap.jsx';
 
 import "./utils/i18n/i18n.js"
 import LizardAstrology from './components/lizardastrology.js';
@@ -128,7 +128,11 @@ class Root extends Component {
 											<Route path="/houseinastrology" component={HouseInAstrology}/>
 											<Route path="/kundalimatching" component={KundaliMatching}/>
 											<Route path="/muhurtha" component={Muhurtha}/>
-<Route path="/planetstrength" component={planetstrength}/>
+                                            <Route path="/planetstrength" component={planetstrength}/>
+                                            <Route path="/vedicastrology" component={vedicastrology}/>
+                                            <Route path="/astrologyroadmap" component={astrologyroadmap}/>
+
+
 											<Route path="/division" component={Divison}/>
 											<Route path="/division2" component={Division2}/>
 											<Route path="/division3" component={Division3}/>
