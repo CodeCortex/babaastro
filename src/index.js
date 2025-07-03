@@ -39,9 +39,18 @@ import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
+ feature/blogupdate2
+
+import Division6 from './components/blog-components/Division6.jsx';
+import Division7 from './components/blog-components/Division7.jsx';
+import Division9 from './components/blog-components/Division9.jsx';
+import planetstrength from './components/blog-components/planetstrength.jsx';
+import vedicastrology from './components/blog-components/vedicastrology.jsx';
+import astrologyroadmap from './components/blog-components/astrologyroadmap.jsx';
+
 import Division30 from './components/blog-components/Division30.jsx';
 import Division60 from './components/blog-components/Division60.jsx';
-
+ main
 
 import "./utils/i18n/i18n.js"
 import LizardAstrology from './components/lizardastrology.js';
@@ -121,10 +130,25 @@ class Root extends Component {
 											<Route path="/houseinastrology" component={HouseInAstrology}/>
 											<Route path="/kundalimatching" component={KundaliMatching}/>
 											<Route path="/muhurtha" component={Muhurtha}/>
+feature/blogupdate2
+                                            <Route path="/planetstrength" component={planetstrength}/>
+                                            <Route path="/vedicastrology" component={vedicastrology}/>
+                                            <Route path="/astrologyroadmap" component={astrologyroadmap}/>
+
+
+											<Route path="/division" component={Divison}/>
+											<Route path="/division2" component={Division2}/>
+											<Route path="/division3" component={Division3}/>
+											<Route path="/division5" component={Division5}/>
+											<Route path="/division10" component={Division10}/>
+											<Route path="/division12" component={Division12}/>
+											<Route path="/division16" component={Division16}/>
+
 											<Route path="/divison" component={Divison}/>
 											<Route path="/divison2" component={Division2}/>
 											<Route path="/divison3" component={Division3}/>
 											<Route path="/divison5" component={Division5}/>
+ main
 											<Route path="/division24" component={Division24}/>
 											<Route path="/divison30" component={Division30}/>
 											<Route path="/divison60" component={Division60}/>
