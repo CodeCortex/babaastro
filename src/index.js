@@ -1,4 +1,3 @@
-
 import React, { Component, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
@@ -38,11 +37,11 @@ import Divison from './components/blog-components/Divison.jsx';
 import Division2 from './components/blog-components/Division2.jsx';
 import Division3 from './components/blog-components/Division3.jsx';
 import Division5 from './components/blog-components/Division5.jsx';
-import Division6 from './components/blog-components/Division6.jsx';
+import Division6 from './components/blog-components/Division6-9/Division6.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
 import Division30 from './components/blog-components/Division30.jsx';
 import Division60 from './components/blog-components/Division60.jsx';
-import Division7 from './components/blog-components/Division7.jsx';
+import Division7 from './components/blog-components/Division6-9/Division7.jsx';
 
 
 
@@ -62,9 +61,9 @@ import Ascendantsinastrology from './components/blog-components/Ascendantsinastr
 import HouseInAstrology from './components/blog-components/HouseInAstrology.jsx';
 import KundaliMatching from './components/blog-components/KundaliMatching.jsx';
 import Muhurtha from './components/blog-components/Muhurtha.jsx';
-import Division9 from './components/blog-components/Division9.jsx';
-import Desktop63 from './components/blog-components/Desktop63.jsx';
-import Desktop64 from './components/blog-components/Desktop64.jsx';
+import Division9 from './components/blog-components/Division6-9/Division9.jsx';
+import Desktop63 from './components/blog-components/Desktop63-64/Desktop63.jsx';
+import Desktop64 from './components/blog-components/Desktop63-64/Desktop64.jsx';
 
 
 
@@ -131,14 +130,14 @@ class Root extends Component {
 											<Route path="/houseinastrology" component={HouseInAstrology}/>
 											<Route path="/kundalimatching" component={KundaliMatching}/>
 											<Route path="/muhurtha" component={Muhurtha}/>
-											<Route path="/divison" component={Divison}/>
-											<Route path="/divison2" component={Division2}/>
+											<Route path="/division" component={Divison}/>
+											<Route path="/division2" component={Division2}/>
 											<Route path="/division3" component={Division3}/>
 											<Route path="/division5" component={Division5}/>
 											<Route path="/division6" component={Division6}/>
 											<Route path="/division24" component={Division24}/>
-											<Route path="/divison30" component={Division30}/>
-											<Route path="/divison60" component={Division60}/>
+											<Route path="/division30" component={Division30}/>
+											<Route path="/division60" component={Division60}/>
 											<Route path="/division7" component={Division7}/>
 											<Route path="/division9" component={Division9}/>
 											<Route path="/desktop63" component={Desktop63}/>
@@ -146,7 +145,6 @@ class Root extends Component {
 
 	                    <Route  path="/blog-components/SignInAstrology" component={SignInAstrology} />
 	                    <Route  path="/blog-components/Planetsinastrology" component={Planetinastrology} />
-	                    <Route  path="/blog-components/Divison" component={Divison} />
 	                    <Route  path="/blog-components/Division2" component={Division2} />
 	                    <Route  path="/blog-components/Division3" component={Division3} />
 	                    <Route  path="/blog-components/Division5" component={Division5} />
