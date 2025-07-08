@@ -48,7 +48,8 @@ import Division24 from './components/blog-components/Division24.jsx';
 // import Division6 from './components/blog-components/Division6.jsx';
 // import Division7 from './components/blog-components/Division7.jsx';
 // import Division9 from './components/blog-components/Division9.jsx';
-// import planetstrength from './components/blog-components/planetstrength.jsx';
+
+import planetstrength from './components/blog-components/planetstrength.jsx';
 import vedicastrology from './components/blog-components/vedicastrology.jsx';
 import astrologyroadmap from './components/blog-components/astrologyroadmap.jsx';
 
@@ -144,7 +145,7 @@ class Root extends Component {
 							<Route path="/kundalimatching" component={KundaliMatching} />
 							<Route path="/muhurtha" component={Muhurtha} />
 							feature/blogupdate2
-							{/* <Route path="/planetstrength" component={planetstrength} /> */}
+							<Route path="/planetstrength" component={planetstrength} /> 
 							<Route path="/vedicastrology" component={vedicastrology} />
 							<Route path="/astrologyroadmap" component={astrologyroadmap} />
 
