@@ -79,13 +79,13 @@ const Home_V1 = () => {
       <div className="main-container">
         <div className="left-container">
           <div style={scrollableContentStyle}>
-            <p className='p-style'>Concepts Overview</p>
-            <p className='p-style'>Vedic Astrology Overview</p>
-            <p className='p-style'>Astrology Roadmap Introduction</p>
+          <Link to="/construction"><p className='p-style'>Concepts Overview</p></Link>
+<Link to="/construction"><p className='p-style'>Vedic Astrology Overview</p></Link>
+<Link to="/construction"><p className='p-style'>Astrology Roadmap Introduction</p></Link>
             <Link to="/nadiastrology"> <p className='p-style'>Nadi Astrology</p></Link>
             <Link to="/birthtime">  <p className='p-style'>Birthtime Rectification Research</p></Link>
-            <p className='p-style'>Astrology Books</p>
-            <p className='p-style'>Vastu Shastra</p>
+            <Link to="/construction"><p className='p-style'>Astrology Books</p></Link>
+<Link to="/construction"><p className='p-style'>Vastu Shastra</p></Link>
             <Link to="/palmistry">    <p className='p-style'>Palmistry</p></Link>
             <Link to="/nimittaandshakun">  <p className='p-style'>Nimitta & Shakun</p></Link>
             <Link to="/lizardastrology">
@@ -93,7 +93,7 @@ const Home_V1 = () => {
 
             <Link to="/dreamastrology">
               <p className="p-style">Dream Astrology</p></Link>
-            <p className='p-style'>Parihara & Remedies</p>
+              <Link to="/construction"><p className='p-style'>Parihara & Remedies</p></Link>
             <Link to="/signinastrology"> <p className='p-style'>Signs in Astrology</p> </Link>
             <Link to="/starsinastrology"> <p className='p-style'>Stars in Astrology</p> </Link>
             <Link to="/planetinastrology"> <p className='p-style'>Planets in Astrology</p> </Link>
@@ -109,9 +109,9 @@ const Home_V1 = () => {
 
             <p className='p-style'>Planets Strength</p>
             <Link to="/dashasystem">   <p className='p-style'>Dasha Systems</p></Link>
-            <p className='p-style'>Fast Horoscope Reading</p>
-            <p className='p-style'>Fast Horoscope Reading 2</p>
-            <p className='p-style'>How to Read Horoscope</p>
+            <Link to="/construction"><p className='p-style'>Fast Horoscope Reading</p></Link>
+<Link to="/construction"><p className='p-style'>Fast Horoscope Reading 2</p></Link>
+<Link to="/construction"><p className='p-style'>How to Read Horoscope</p></Link>
             <Link to="/kundalimatching"> <p className='p-style'>Kundali Matching</p> </Link>
             <Link to="/muhurtha"> <p className='p-style'>Muhurtha</p> </Link>
 
@@ -164,20 +164,20 @@ const Home_V1 = () => {
             </div>
             <Link to="/astrologyservice"><p className='p-style'>Astrology Services</p></Link>
 
-            <p className='p-style'>Online Kundali (Birth Chart)</p>
-            <p className='p-style'>Horoscope Matching</p>
-            <p className='p-style'>Ask a question Talk to the Best Astrologer</p>
-            <p className='p-style'>All about our paid services</p>
-            <p className='p-style'>Get baby name suggestion</p>
-            <p className='p-style'>Get your life report</p>
-            <p className='p-style'>Numerology Calculator</p>
-            <p className='p-style'>About Vedic Astrology</p>
-            <p className='p-style'>Learn Astrology</p>
-            <p className='p-style'>Know about your Gemstones</p>
-            <p className='p-style'>About your Mangal Dosha</p>
-            <p className='p-style'>Get Kaal Sarp Dosha</p>
-            <p className='p-style'>Get your love horoscope</p>
-            <p className='p-style'>Chat in Whatsapp</p>
+            <Link to="/construction"><p className='p-style'>Online Kundali (Birth Chart)</p></Link>
+<Link to="/construction"><p className='p-style'>Horoscope Matching</p></Link>
+<Link to="/construction"><p className='p-style'>Ask a question Talk to the Best Astrologer</p></Link>
+<Link to="/construction"><p className='p-style'>All about our paid services</p></Link>
+<Link to="/construction"><p className='p-style'>Get baby name suggestion</p></Link>
+<Link to="/construction"><p className='p-style'>Get your life report</p></Link>
+<Link to="/construction"><p className='p-style'>Numerology Calculator</p></Link>
+<Link to="/construction"><p className='p-style'>About Vedic Astrology</p></Link>
+<Link to="/construction"><p className='p-style'>Learn Astrology</p></Link>
+<Link to="/construction"><p className='p-style'>Know about your Gemstones</p></Link>
+<Link to="/construction"><p className='p-style'>About your Mangal Dosha</p></Link>
+<Link to="/construction"><p className='p-style'>Get Kaal Sarp Dosha</p></Link>
+<Link to="/construction"><p className='p-style'>Get your love horoscope</p></Link>
+<Link to="/construction"><p className='p-style'>Chat in Whatsapp</p></Link>
           </div>
         </div>
       </div>
