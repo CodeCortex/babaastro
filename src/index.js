@@ -77,6 +77,8 @@ import Muhurtha from './components/blog-components/Muhurtha.jsx';
 import Construction from './components/construction';
 
 import "./utils/i18n/i18n.js";
+import Desktop65 from './components/blog-components/Desktop65-66/Desktop65.jsx';
+import Desktop66 from './components/blog-components/Desktop65-66/Desktop66.jsx';
 
 class Root extends Component {
 	render() {
@@ -136,6 +138,8 @@ class Root extends Component {
 							{/* Other Components */}
 							<Route path="/desktop63" component={Desktop63} />
 							<Route path="/desktop64" component={Desktop64} />
+							<Route path="/desktop65" component={Desktop65} />
+							<Route path="/desktop66" component={Desktop66} />
 							<Route path="/construction" component={Construction} />
 
 							{/* Categories */}
