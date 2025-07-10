@@ -142,7 +142,7 @@ class Navbar extends Component {
                   onMouseLeave={this.handleMouseLeave}
                   className="relative text-white current-menu-item cursor-pointer"
                 >
-                  {t("Services")}
+                  {t("SERVICES")}
                   {this.state.isOpen && (
                     <ul
                       style={{ background: "#dc3545", transition: "opacity 0.3s ease-in-out, transform 0.3s ease-in-out" }}
@@ -176,10 +176,10 @@ class Navbar extends Component {
                   <a href="#/blog">{t("Blogs")}</a>
                 </li>
                 <li className="current-menu-item">
-                  <a href="#">{t("Contact")}</a>
+                <Link to="/construction">Contact</Link>
                 </li>
                 <li className="current-menu-item">
-                  <a href="#">{t("Appointment")}</a>
+                <Link to="/construction">Appointment</Link>
                 </li>
 
 
@@ -218,13 +218,13 @@ class Navbar extends Component {
                 <div className="topbar-menu text-md-left text-center">
                   <ul className="align-self-center">
                     <li>
-                      <Link to="#">GURU PEYRACHI 2025</Link>
+                      <Link to="/construction">GURU PEYRACHI 2025</Link>
                     </li>
                     <li>
-                      <Link to="#">HOROSCOPE 2025</Link>
+                      <Link to="/construction">HOROSCOPE 2025</Link>
                     </li>
                     <li>
-                      <Link to="#">RAHU KETU 2025</Link>
+                      <Link to="/construction">RAHU KETU 2025</Link>
                     </li>
                     <li>
                       <a
@@ -242,7 +242,7 @@ class Navbar extends Component {
                     </li>
 
                     <li>
-                      <Link to="#">MONTHLY HOROSCOPE</Link>
+                      <Link to="/construction">MONTHLY HOROSCOPE</Link>
                     </li>
                   </ul>
                 </div>
@@ -349,13 +349,13 @@ class Navbar extends Component {
                       <Link to="/gemologyservice">GEMOLOGY</Link>
                     </li>
                     <li>
-                      <Link to="#">REMEDIES</Link>
+                      <Link to="/construction">REMEDIES</Link>
                     </li>
                     <li>
-                      <Link to="#">BLACK MAGIC</Link>
+                      <Link to="/construction">BLACK MAGIC</Link>
                     </li>
                     <li>
-                      <Link to="#">ONLINE SHOPPING</Link>
+                      <Link to="/construction">ONLINE SHOPPING</Link>
                     </li>
                   </ul>
                 </div>
