@@ -7,7 +7,7 @@ const Division16 = () => {
         <div>
             <div
                 style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d16/D16.png)`,
+                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d16/cde9c7335becd495a5887ef47d6077ebb8f74dca.png)`,
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
                     backgroundPosition: 'top center',
@@ -23,26 +23,50 @@ const Division16 = () => {
                 </h1>
             </div>
 
+            {/* Ad Section */}
             <div
                 style={{
-                    background: "linear-gradient(to bottom, #A2D400 0%, #002509 100%)"
+                    background: '#D40044',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '1rem 2rem',
+                    borderRadius: '12px',
+                    width: '90%',
+                    margin: '-80px auto 40px',
+                    position: 'relative',
+                    zIndex: 2,
+                }}
+            >
+                <p
+                    style={{
+                        backgroundColor: 'white',
+                        padding: '1.5rem',
+                        fontWeight: 'bold',
+                        fontSize: '20px',
+                        flex: 1,
+                    }}
+                >
+                    Space for website ad
+                </p>
+                <img
+                    src={`${publicUrl}/assets/img/blog/division/d16/1298f8baccd5eddd42bb45413c2c169e7e7f2dfc.png`} // replace with your ad image
+                    alt="Ad"
+                    style={{ width: '120px', marginLeft: '1rem', borderRadius: '100%' }}
+                />
+            </div>
+
+            <div
+                style={{
+                    background: "linear-gradient(to bottom, #D40044 0%, #2D0001 100%)"
                 }}
                 className=" w-full pt-20 pb-20 flex flex-col justify-center items-center"
             >
-                <div
-                    style={{ backgroundColor: 'white', width: '90vw' }}
-                    className="h-56 pt-20 rounded-2xl flex justify-end items-end overflow-visible relative"
-                >
-                    <img
-                        src={`${publicUrl}/assets/img/blog/division/d16/D16.png`}
-                        alt="D16 Main Chart"
-                        className="w-[350px] transform scale-[3.5] origin-bottom object-contain"
-                    />
-                </div>
+                
 
                 <div style={{ backgroundColor: "white", width: "86vw" }} className='mt-8 p-10'>
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d16/Frame 268.png`} alt="D16 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
+                        <img src={`${publicUrl}/assets/img/blog/division/d16/0cfd18947dd2ec81bb5916f82d1c7988be45f8ad.jpg`} alt="D16 Table" className="md:w-1/2 w-full rounded-lg scale-[1.5]" />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
                             <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>What is the D16 – Shodasamsa Chart and Why Does It Matter?</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>
@@ -58,11 +82,11 @@ const Division16 = () => {
                                 Each zodiac sign is divided into 16 equal parts of 1°52'30", creating 192 Shodasamsas across the zodiac. The Lagna and Lagna Lord reflect your capacity for enjoyment and comfort. The 4th house governs vehicles and happiness, while Venus and the Moon show luxuries and pleasures. Benefics in the 4th bring comforts, while malefics may indicate obstacles. For example, a strong Venus and 4th lord together point to luxury and happiness, while afflictions may reflect struggles for comfort.
                             </p>
                         </div>
-                        <img src={`${publicUrl}/assets/img/blog/division/d16/Frame 615.png`} alt="D16 Supporting" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d16/40b30d1a094f2a0fa9e074545396ffd0fb4d26ad.jpg`} alt="D16 Supporting" className='md:w-1/2 w-full rounded-lg' />
                     </div>
 
                     <div className='w-full flex md:flex-row flex-col  items-start mt-20 pb-8 '>
-                        <img src={`${publicUrl}/assets/img/blog/division/d16/Group 172.png`} alt="D16 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
+                        <img src={`${publicUrl}/assets/img/blog/division/d16/b5f7d85742a002ae72e8c962994e4de6e42b2942.jpg`} alt="D16 Supporting 2" className='md:w-1/2 w-full rounded-lg' />
                         <div className='md:w-1/2 w-full flex flex-col justify-center px-6 gap-3'>
                             <p className='text-2xl font-bold mt-4' style={{ color: "#5D0000" }}>Practical Benefits of Analyzing the D16 Chart</p>
                             <p className='text-black font-medium' style={{ fontSize: '30px' }}>

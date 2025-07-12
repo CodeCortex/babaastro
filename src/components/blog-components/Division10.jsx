@@ -1,134 +1,200 @@
 import React from 'react';
 
 const Division10 = () => {
-    const publicUrl = process.env.PUBLIC_URL || "";
+  const publicUrl = process.env.PUBLIC_URL || "";
 
-    return (
-        <div className="relative w-full min-h-screen bg-[#0B3B0B] overflow-x-hidden">
-            {/* Hero Section with Mask Group */}
-            <div className="relative w-full min-h-[100vh] flex justify-center items-center"
-                style={{
-                    backgroundImage: `url(${publicUrl}/assets/img/blog/division/d10/D10.png)`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'top center',
-                }}>
-                {/* Mask Group SVG Overlay */}
-                <div className="absolute inset-0 pointer-events-none z-10">
-                    <svg width="100%" height="100%" viewBox="0 0 1920 400" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-                        <defs>
-                            <linearGradient id="maskGradient10" x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="0%" stopColor="#A3C635" stopOpacity="0.7" />
-                                <stop offset="100%" stopColor="#0B3B0B" stopOpacity="0.9" />
-                            </linearGradient>
-                        </defs>
-                        <path d="M0,0 L1920,0 L1920,300 Q960,400 0,300 Z" fill="url(#maskGradient10)" />
-                    </svg>
-                </div>
-                <h1
-                    className="relative z-20 text-white font-extrabold sm:text-7xl md:text-9xl"
-                    style={{
-                        fontSize: '180px',
-                        textShadow: '2px 2px 3px black',
-                        paddingTop: "180px",
-                        paddingBottom: "180px"
-                    }}
-                >
-                    D10
-                </h1>
+  return (
+    <div>
+      {/* Hero Section */}
+      <div
+        style={{
+          backgroundImage: `url(${publicUrl}/assets/img/blog/division/d10/cde9c7335becd495a5887ef47d6077ebb8f74dca.png)`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '100vh',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <h1
+          style={{
+            fontSize: '12vw',
+            textShadow: '4px 4px 8px rgba(0,0,0,0.8)',
+          }}
+          className="text-white font-extrabold"
+        >
+          D10
+        </h1>
+      </div>
+
+      {/* Ad Section */}
+      <div
+        style={{
+          background: '#B400A2',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          padding: '1rem 2rem',
+          borderRadius: '12px',
+          width: '90%',
+          margin: '-80px auto 40px',
+          position: 'relative',
+          zIndex: 2,
+        }}
+      >
+        <p
+          style={{
+            backgroundColor: 'white',
+            padding: '1.5rem',
+            fontWeight: 'bold',
+            fontSize: '20px',
+            flex: 1,
+          }}
+        >
+          Space for website ad
+        </p>
+        <img
+          src={`${publicUrl}/assets/img/blog/division/d10/1298f8baccd5eddd42bb45413c2c169e7e7f2dfc.png`}
+          alt="Ad"
+          style={{ width: '120px', marginLeft: '1rem', borderRadius: '100%' }}
+        />
+      </div>
+
+      {/* Content Section */}
+      <div
+        style={{
+          background: 'linear-gradient(to bottom, #B400A2 0%, rgb(48, 2, 54) 40%)',
+          minHeight: '100vh',
+          paddingBottom: '40px'
+        }}
+        className="w-full py-20 px-4 flex flex-col justify-center items-center"
+      >
+        <div
+          style={{
+            backgroundColor: 'white',
+            width: '90%',
+            borderRadius: '24px',
+            padding: '2.5rem',
+            boxShadow: '0 8px 32px rgba(0,0,0,0.12)'
+          }}
+        >
+          {/* Section 1 */}
+          <div className='flex flex-col md:flex-row items-center gap-6 mb-16'>
+            <div className='md:w-1/2 w-full flex flex-col justify-center gap-4'>
+              <h2 className='text-2xl font-bold text-[#5D0000]'>What is the D10 – Dasamsa Chart and Why Is It Crucial?</h2>
+              <p className='text-base text-black font-medium'>
+                The D10 chart, or Dasamsa (தசம்ச சக்கரம்), is one of the most significant divisional charts in Vedic astrology when it comes to understanding your career, profession, and public status. While the D1 chart may suggest success, it’s the D10 that reveals whether that success will translate into actual recognition, job satisfaction, and growth. This chart comes into greater effect after the age of 28–30, when most individuals begin to stabilize and define their professional direction. If you're wondering about your ideal career path, promotion timing, or professional karma, the D10 holds the key.
+              </p>
             </div>
+            <img
+              src={`${publicUrl}/assets/img/blog/division/d10/00459b1c8cc32674516ff2abf62ea64b0c62edcb.jpg`}
+              alt="D10 Chart"
+              className='md:w-1/2 w-full rounded-lg object-cover'
+              style={{ maxHeight: '320px' }}
+            />
+          </div>
 
-            {/* Website Ad/Banner Placeholder */}
-            <div className="w-full flex justify-center items-center py-6 bg-transparent z-30 relative">
-                <div className="w-[90vw] h-20 bg-gray-200 rounded-xl flex items-center justify-center shadow-md text-xl font-bold text-gray-700">
-                    [Website Ad/Banner Space]
-                </div>
+          {/* Section 2 */}
+          <div className='flex flex-col md:flex-row-reverse items-center gap-6 mb-16'>
+            <div className='md:w-1/2 w-full flex flex-col justify-center gap-4'>
+              <h2 className='text-2xl font-bold text-[#5D0000]'>How is D10 Calculated and What to Look For?</h2>
+              <p className='text-base text-black font-medium'>
+                Each sign of 30° is divided into 10 parts of 3°, resulting in 120 Dasamsa divisions. A planet’s placement in the D1 chart determines where it lands in the D10 chart, according to standard divisional rules. Important points to analyze include the Lagna and Lagna Lord (which show your attitude toward work), the 6th and 10th houses (for job stress and career success), and the strength of planets like Sun, Saturn, Jupiter, and Mercury. Benefics placed in Kendras (angular houses) can lead to a stable career, while malefics may bring ambition-driven stress or intense challenges. A well-placed Mars indicates roles in defense or engineering; Mercury supports communication and business, and Venus in the D10 Lagna suggests artistic or beauty-related careers.
+              </p>
             </div>
+            <img
+              src={`${publicUrl}/assets/img/blog/division/d10/7682e69d1bec03ed2d6119a2baf7694a768ac62d.png`}
+              alt="Career"
+              className='md:w-1/2 w-full rounded-lg object-cover'
+              style={{ maxHeight: '320px' }}
+            />
+          </div>
+          <div className="flex justify-center mb-16">
+            <img
+              src={`${publicUrl}/assets/img/blog/division/d10/73914ccab79574b526e36760cbb6a48c6701c1da.png`}
+              alt="Advertisement"
+              style={{
+                width: '100%',
+                maxWidth: '600px',
+                borderRadius: '16px',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.12)'
+              }}
+            />
+          </div>
+          <div className="flex justify-center mb-16">
+            <img
+              src={`${publicUrl}/assets/img/blog/division/d10/55d990a0c2d8623569d36ed989861fdb39702ff2.jpg`}
+              alt="Additional Visual"
+              style={{
+                width: '100%',
+                maxWidth: '600px',
+                borderRadius: '16px',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.12)'
+              }}
+            />
+          </div>
 
-            {/* Main Content Section with Layered Card */}
-            <div
-                style={{
-                    background: "linear-gradient(to bottom, #A3C635 0%, #0B3B0B 100%)"
-                }}
-                className="w-full pt-20 pb-20 flex flex-col justify-center items-center relative"
-            >
-                <div style={{
-                    backgroundColor: "white",
-                    width: "90vw",
-                    borderRadius: "20px",
-                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
-                }}
-                    className='p-8 md:p-12 mt-[-120px] z-20 relative'
-                >
-                    {/* 1. Image left, text right */}
-                    <div className='w-full flex md:flex-row flex-col items-start mb-10 gap-8'>
-                        <img src={publicUrl + '/assets/img/blog/division/d10/D10img1.jpg'} alt="D10 Chart" className='md:w-1/2 w-full rounded-lg shadow-md mb-4 md:mb-0' style={{ objectFit: 'cover', maxWidth: '320px' }} />
-                        <div className='md:w-1/2 w-full flex flex-col justify-center'>
-                            <h2 className='text-lg md:text-xl font-bold mb-2' style={{ color: '#7B1F1F' }}>Why the D10 Chart Matters in Vedic Astrology</h2>
-                            <p className='text-black font-medium text-xs md:text-sm' style={{ textAlign: 'justify' }}>
-                                The D10 chart, or Dasamsa, is crucial for understanding one's career, professional reputation, and public life. It reveals the strengths, challenges, and opportunities in your work and how you are perceived in society.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* 2. Text left, image right */}
-                    <div className='w-full flex md:flex-row flex-col items-start mb-10 gap-8'>
-                        <div className='md:w-1/2 w-full flex flex-col justify-center'>
-                            <h2 className='text-lg md:text-xl font-bold mb-2' style={{ color: '#7B1F1F' }}>What to Analyze in the D10 Chart</h2>
-                            <p className='text-black font-medium text-xs md:text-sm' style={{ textAlign: 'justify' }}>
-                                Key factors include the 10th house, its lord, and planets placed in the D10 Lagna. Strong benefics here indicate career growth, while malefics may show obstacles or frequent changes in profession.
-                            </p>
-                        </div>
-                        <img src={publicUrl + '/assets/img/blog/division/d10/D10img2.jpg'} alt="D10 Analysis" className='md:w-1/2 w-full rounded-lg shadow-md mb-4 md:mb-0' style={{ objectFit: 'contain', maxWidth: '320px', maxHeight: '260px', display: 'block', margin: '0 auto' }} />
-                    </div>
-
-                    {/* 3. Image left, text right */}
-                    <div className='w-full flex md:flex-row flex-col items-start mb-10 gap-8'>
-                        <img src={publicUrl + '/assets/img/blog/division/d10/D10img3.jpg'} alt="D10 Practice" className='md:w-1/2 w-full rounded-lg shadow-md mb-4 md:mb-0' style={{ objectFit: 'cover', border: '3px solid #4A90E2', maxWidth: '320px' }} />
-                        <div className='md:w-1/2 w-full flex flex-col justify-center'>
-                            <h2 className='text-lg md:text-xl font-bold mb-2' style={{ color: '#7B1F1F' }}>How the D10 Chart Can Be Used in Practice</h2>
-                            <p className='text-black font-medium text-xs md:text-sm' style={{ textAlign: 'justify' }}>
-                                Use the D10 chart to time promotions, job changes, and to understand your true calling. It helps you align your career with your strengths and karmic path.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Video Section */}
-                <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 lg:py-20 text-center'>Click for video</h1>
-                <div>
-                    <div className='' style={{ height: '80vh', width: "90vw" }}>
-                        <iframe
-                            width="100%"
-                            height="100%"
-                            src="https://www.youtube.com/embed/REPLACE_WITH_D10_VIDEO"
-                            title="YouTube video"
-                            allow="autoplay; encrypted-media"
-                            allowFullScreen
-                            className=''
-                            style={{ borderRadius: '12px', display: 'block' }}
-                        ></iframe>
-                    </div>
-                </div>
-
-                {/* Buttons Section */}
-                <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Astrological remedies if you were not able to buy a house</h1>
-                <button
-                    style={{ background: "#E90000" }}
-                    className="bg-[#E90000] border-4 border-white rounded-2xl px-20 py-3 lg:py-6 hover:text-white text-white text-xl lg:text-4xl hover:text-red shadow-lg hover:bg-white  transition duration-300"
-                >
-                    Check Now
-                </button>
-
-                <h1 className='text-white text-2xl lg:text-6xl font-extrabold py-10 px-8 lg:px-40 text-center'>Ask a question talk to the best astrologer</h1>
-                <button onClick={() => window.open("https://wa.me/+919508801096", "_blank")}
-                    style={{ background: "#00980A" }}
-                    className='bg-[#00980A] border-4 border-white rounded-2xl px-20 py-3 lg:py-6 hover:text-white text-white text-xl lg:text-4xl hover:text-red shadow-lg hover:bg-white  transition duration-300'>
-                    Chat in Whatsapp
-                </button>
+          {/* Section 3 */}
+          <div className='flex flex-col md:flex-row items-center gap-6 mb-16'>
+            <div className='md:w-1/2 w-full flex flex-col justify-center gap-4'>
+              <h2 className='text-2xl font-bold text-[#5D0000]'>Practical Benefits of Analyzing the D10 Chart</h2>
+              <p className='text-base text-black font-medium'>
+                The D10 chart is incredibly helpful for career decision-making. It can reveal your field of strength, timing of promotions, and even the nature of your work environment. For those facing repeated career blocks or professional uncertainty, the D10 offers insight into karmic patterns tied to work life. It’s also useful for matching career compatibility in marriage and gauging how your career will evolve over time. In fact, a strong D10 can even uplift a weaker D1 chart when supported by the right dasha periods, making it a go-to chart for astrologers assessing long-term success and public achievement.
+              </p>
             </div>
+            <img
+              src={`${publicUrl}/assets/img/blog/division/d10/fcdc762cb9c46f2129b4cdea40a6268b1becb3c7.jpg`}
+              alt="Yogi"
+              className='md:w-1/2 w-full rounded-lg object-cover'
+              style={{ maxHeight: '320px' }}
+            />
+          </div>
         </div>
-    );
+      </div>
+
+      {/* YouTube Video Section */}
+      <div className="w-full flex flex-col items-center">
+        <h2 className='text-[#E6FF00] text-2xl lg:text-4xl font-bold py-10 text-center'>Click for video</h2>
+        <div className='w-full flex justify-center mb-10'>
+          <div className='w-full max-w-[700px] h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-lg flex justify-center items-center bg-black'>
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/SKeF4Ymwt1Y?autoplay=1&mute=1&rel=0&showinfo=0"
+              title="YouTube video"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              style={{ borderRadius: '12px', width: '100%', height: '100%' }}
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      {/* Remedies and Chat Section */}
+      <div className="w-full flex flex-col items-center">
+        <h1 className='text-white text-2xl lg:text-4xl font-bold text-center mb-4'>
+          Astrological remedies if you were not able to buy a house
+        </h1>
+        <button
+          className="bg-red-600 hover:bg-white hover:text-red-600 text-white font-bold py-3 px-8 rounded-xl border-4 border-white transition mb-10"
+        >
+          Check Now
+        </button>
+
+        <h1 className='text-white text-2xl lg:text-4xl font-bold text-center mb-4'>
+          Ask a question talk to the best astrologer
+        </h1>
+        <button
+          onClick={() => window.open("https://wa.me/+919508801096", "_blank")}
+          className='bg-green-600 hover:bg-white hover:text-green-600 text-white font-bold py-3 px-8 rounded-xl border-4 border-white transition'
+        >
+          Chat in WhatsApp
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Division10;
