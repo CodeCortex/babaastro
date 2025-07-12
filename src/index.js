@@ -51,6 +51,9 @@ import Division9 from './components/blog-components/Division6-9/Division9.jsx';
 import Division24 from './components/blog-components/Division24.jsx';
 import Division30 from './components/blog-components/Division30.jsx';
 import Division60 from './components/blog-components/Division60.jsx';
+import Division10 from './components/blog-components/Division10.jsx';
+import Division12 from './components/blog-components/Division12.jsx';
+import Division16 from './components/blog-components/Division16.jsx';
 
 import Desktop63 from './components/blog-components/Desktop63-64/Desktop63.jsx';
 import Desktop64 from './components/blog-components/Desktop63-64/Desktop64.jsx';
@@ -131,6 +134,9 @@ class Root extends Component {
 							<Route path="/division6" component={Division6} />
 							<Route path="/division7" component={Division7} />
 							<Route path="/division9" component={Division9} />
+							<Route path="/division10" component={Division10} />
+							<Route path="/division12" component={Division12} />
+							<Route path="/division16" component={Division16} />
 							<Route path="/division24" component={Division24} />
 							<Route path="/division30" component={Division30} />
 							<Route path="/division60" component={Division60} />
