@@ -7,91 +7,91 @@ const RashiAstroBlog = () => {
       element: 'Fire',
       ruler: 'Mars (Chevvai)',
       traits: 'Bold, energetic, action-oriented, courageous, sometimes impulsive and short-tempered.',
-      img: '/assets/img/pla_in_asr/1b.jpg'
+      img: '/assets/img/rashi/aries.jpg'
     },
     {
       name: 'Vrishabha Rasi (Taurus)',
       element: 'Earth',
       ruler: 'Venus (Sukran)',
       traits: 'Calm, loyal, practical, pleasure-loving. May be slow to change or stubborn.',
-      img: '/assets/img/pla_in_asr/2b.jpg'
+      img: '/assets/img/rashi/taurus.jpg'
     },
     {
       name: 'Mithuna Rasi (Gemini)',
       element: 'Air',
       ruler: 'Mercury (Budhan)',
       traits: 'Adaptable, witty, curious. Likes variety and communication.',
-      img: '/assets/img/pla_in_asr/3b.jpg'
+      img: '/assets/img/rashi/gemini.jpg'
     },
     {
       name: 'Kataka Rasi (Cancer)',
       element: 'Water',
       ruler: 'Moon (Chandran)',
       traits: 'Emotional, nurturing, family-oriented, sensitive. Can be moody or protective.',
-      img: '/assets/img/pla_in_asr/4b.jpg'
+      img: '/assets/img/rashi/cancer.jpg'
     },
     {
       name: 'Simha Rasi (Leo)',
       element: 'Fire',
       ruler: 'Sun (Surya)',
       traits: 'Proud, confident, charismatic, natural leader. Likes attention and appreciation.',
-      img: '/assets/img/pla_in_asr/5b.jpg'
+      img: '/assets/img/rashi/leo.jpg'
     },
     {
       name: 'Kanni Rasi (Virgo)',
       element: 'Earth',
       ruler: 'Mercury (Budhan)',
       traits: 'Logical, detail-oriented, disciplined, helpful. Often health-conscious and critical.',
-      img: '/assets/img/pla_in_asr/6b.jpg'
+      img: '/assets/img/rashi/virgo.jpg'
     },
     {
       name: 'Thula Rasi (Libra)',
       element: 'Air',
       ruler: 'Venus (Sukran)',
       traits: 'Balanced, diplomatic, artistic. Loves social harmony and relationships.',
-      img: '/assets/img/pla_in_asr/7b.jpg'
+      img: '/assets/img/rashi/libra.jpg'
     },
     {
       name: 'Vrischika Rasi (Scorpio)',
       element: 'Water',
       ruler: 'Mars (Chevvai) & Ketu',
       traits: 'Intense, mysterious, passionate, focused, emotionally deep and determined.',
-      img: '/assets/img/pla_in_asr/8b.jpg'
+      img: '/assets/img/rashi/scorpio.jpg'
     },
     {
       name: 'Dhanusu Rasi (Sagittarius)',
       element: 'Fire',
       ruler: 'Jupiter (Guru)',
       traits: 'Optimistic, adventurous, freedom-loving, philosophical. Loves travel and truth-seeking.',
-      img: '/assets/img/pla_in_asr/9b.jpg'
+      img: '/assets/img/rashi/sagittarius.jpg'
     },
     {
       name: 'Makara Rasi (Capricorn)',
       element: 'Earth',
       ruler: 'Saturn (Shani)',
       traits: 'Ambitious, disciplined, responsible, practical. Hardworking and goal-focused.',
-      img: '/assets/img/pla_in_asr/e.jpg'
+      img: '/assets/img/rashi/capricorn.jpg'
     },
     {
       name: 'Kumbha Rasi (Aquarius)',
       element: 'Air',
       ruler: 'Saturn (Shani)',
       traits: 'Innovative, humanitarian, independent, unconventional. Thinks ahead of the times.',
-      img: '/assets/img/pla_in_asr/10b.png'
+      img: '/assets/img/rashi/aquarius.jpg'
     },
     {
       name: 'Meena Rasi (Pisces)',
       element: 'Water',
       ruler: 'Jupiter (Guru)',
       traits: 'Compassionate, imaginative, spiritual, emotional. Strong intuition and artistic nature.',
-      img: '/assets/img/pla_in_asr/11b.jpg'
+      img: '/assets/img/rashi/pisces.jpg'
     }
   ];
 
   return (
     <div style={{ backgroundColor: '#003f5c', color: '#fff', fontFamily: 'Poppins, sans-serif' }}>
       <div style={{
-        backgroundImage: `url('/assets/img/pla_in_asr/bgb.jpg')`,
+        backgroundImage: `url('/assets/img/rashi/bg.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '100px 0',
